@@ -1,0 +1,1230 @@
+// !$*UTF8*$!
+{
+	0259C573FE90428111CA0C5A /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 8D1AC9600486D14A00FE50C9 /* MicrosoftOfficePlugin */;
+		breakpoints = (
+			CD78322113AB1E1D00E88478 /* MicrosoftOfficePluginSource.m:34 */,
+		);
+		codeSenseManager = CD78301313AAE4E300E88478 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					672,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					632,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329966757;
+			PBXWorkspaceStateSaveDate = 329966757;
+		};
+		perUserProjectItems = {
+			CD78300713AAE4D100E88478 /* PBXBookmark */ = CD78300713AAE4D100E88478 /* PBXBookmark */;
+			CD78300813AAE4E300E88478 /* PBXTextBookmark */ = CD78300813AAE4E300E88478 /* PBXTextBookmark */;
+			CD78300913AAE4E300E88478 /* PBXTextBookmark */ = CD78300913AAE4E300E88478 /* PBXTextBookmark */;
+			CD78300F13AAE4E300E88478 /* PBXTextBookmark */ = CD78300F13AAE4E300E88478 /* PBXTextBookmark */;
+			CD78301513AAE5BA00E88478 /* PBXTextBookmark */ = CD78301513AAE5BA00E88478 /* PBXTextBookmark */;
+			CD78301613AAE5BA00E88478 /* PBXTextBookmark */ = CD78301613AAE5BA00E88478 /* PBXTextBookmark */;
+			CD78301B13AAE5E900E88478 /* PBXTextBookmark */ = CD78301B13AAE5E900E88478 /* PBXTextBookmark */;
+			CD78301C13AAE5E900E88478 /* PBXTextBookmark */ = CD78301C13AAE5E900E88478 /* PBXTextBookmark */;
+			CD78302213AAE79200E88478 /* PBXTextBookmark */ = CD78302213AAE79200E88478 /* PBXTextBookmark */;
+			CD78302313AAE79200E88478 /* XCBuildMessageTextBookmark */ = CD78302313AAE79200E88478 /* XCBuildMessageTextBookmark */;
+			CD78302413AAE79200E88478 /* PBXTextBookmark */ = CD78302413AAE79200E88478 /* PBXTextBookmark */;
+			CD78302513AAE79200E88478 /* PBXTextBookmark */ = CD78302513AAE79200E88478 /* PBXTextBookmark */;
+			CD78303513AAE7BD00E88478 /* PBXTextBookmark */ = CD78303513AAE7BD00E88478 /* PBXTextBookmark */;
+			CD78303613AAE7BD00E88478 /* PBXTextBookmark */ = CD78303613AAE7BD00E88478 /* PBXTextBookmark */;
+			CD78303913AAE7DD00E88478 /* PBXTextBookmark */ = CD78303913AAE7DD00E88478 /* PBXTextBookmark */;
+			CD78303A13AAE7DD00E88478 /* PBXTextBookmark */ = CD78303A13AAE7DD00E88478 /* PBXTextBookmark */;
+			CD78303E13AAE7FB00E88478 /* PBXTextBookmark */ = CD78303E13AAE7FB00E88478 /* PBXTextBookmark */;
+			CD78303F13AAE7FB00E88478 /* PBXTextBookmark */ = CD78303F13AAE7FB00E88478 /* PBXTextBookmark */;
+			CD78304413AAE85100E88478 /* PBXTextBookmark */ = CD78304413AAE85100E88478 /* PBXTextBookmark */;
+			CD78304513AAE85100E88478 /* PBXTextBookmark */ = CD78304513AAE85100E88478 /* PBXTextBookmark */;
+			CD78304E13AAE8D500E88478 /* PBXTextBookmark */ = CD78304E13AAE8D500E88478 /* PBXTextBookmark */;
+			CD78304F13AAE8D500E88478 /* PBXTextBookmark */ = CD78304F13AAE8D500E88478 /* PBXTextBookmark */;
+			CD78306813AB09AE00E88478 /* PBXTextBookmark */ = CD78306813AB09AE00E88478 /* PBXTextBookmark */;
+			CD78306913AB09AE00E88478 /* XCBuildMessageTextBookmark */ = CD78306913AB09AE00E88478 /* XCBuildMessageTextBookmark */;
+			CD78306B13AB09AE00E88478 /* PBXTextBookmark */ = CD78306B13AB09AE00E88478 /* PBXTextBookmark */;
+			CD78306F13AB09B900E88478 /* PBXTextBookmark */ = CD78306F13AB09B900E88478 /* PBXTextBookmark */;
+			CD78307013AB09B900E88478 /* PBXTextBookmark */ = CD78307013AB09B900E88478 /* PBXTextBookmark */;
+			CD78307113AB09B900E88478 /* PBXTextBookmark */ = CD78307113AB09B900E88478 /* PBXTextBookmark */;
+			CD78307213AB09B900E88478 /* PBXTextBookmark */ = CD78307213AB09B900E88478 /* PBXTextBookmark */;
+			CD78307313AB09B900E88478 /* PBXTextBookmark */ = CD78307313AB09B900E88478 /* PBXTextBookmark */;
+			CD78308013AB0A0D00E88478 /* PBXTextBookmark */ = CD78308013AB0A0D00E88478 /* PBXTextBookmark */;
+			CD78308113AB0A0D00E88478 /* PBXTextBookmark */ = CD78308113AB0A0D00E88478 /* PBXTextBookmark */;
+			CD78308313AB0ABC00E88478 /* PBXBookmark */ = CD78308313AB0ABC00E88478 /* PBXBookmark */;
+			CD78309413AB0BCE00E88478 /* PBXTextBookmark */ = CD78309413AB0BCE00E88478 /* PBXTextBookmark */;
+			CD78309513AB0BCE00E88478 /* PBXTextBookmark */ = CD78309513AB0BCE00E88478 /* PBXTextBookmark */;
+			CD78309C13AB0BDE00E88478 /* PBXTextBookmark */ = CD78309C13AB0BDE00E88478 /* PBXTextBookmark */;
+			CD7830A613AB0BF500E88478 /* PBXTextBookmark */ = CD7830A613AB0BF500E88478 /* PBXTextBookmark */;
+			CD7830A713AB0BF500E88478 /* PBXTextBookmark */ = CD7830A713AB0BF500E88478 /* PBXTextBookmark */;
+			CD7830AA13AB0BF500E88478 /* PlistBookmark */ = CD7830AA13AB0BF500E88478 /* PlistBookmark */;
+			CD7830CB13AB0D5200E88478 /* PBXTextBookmark */ = CD7830CB13AB0D5200E88478 /* PBXTextBookmark */;
+			CD78310C13AB0EFE00E88478 /* PBXTextBookmark */ = CD78310C13AB0EFE00E88478 /* PBXTextBookmark */;
+			CD78310D13AB0EFE00E88478 /* PBXTextBookmark */ = CD78310D13AB0EFE00E88478 /* PBXTextBookmark */;
+			CD78310E13AB0EFE00E88478 /* PBXTextBookmark */ = CD78310E13AB0EFE00E88478 /* PBXTextBookmark */;
+			CD78310F13AB0EFE00E88478 /* PBXTextBookmark */ = CD78310F13AB0EFE00E88478 /* PBXTextBookmark */;
+			CD78312F13AB0FF100E88478 /* PBXTextBookmark */ = CD78312F13AB0FF100E88478 /* PBXTextBookmark */;
+			CD78313013AB0FF100E88478 /* PBXTextBookmark */ = CD78313013AB0FF100E88478 /* PBXTextBookmark */;
+			CD78314813AB10E700E88478 /* PBXTextBookmark */ = CD78314813AB10E700E88478 /* PBXTextBookmark */;
+			CD78315313AB126700E88478 /* PBXTextBookmark */ = CD78315313AB126700E88478 /* PBXTextBookmark */;
+			CD78319313AB14C900E88478 /* PBXBookmark */ = CD78319313AB14C900E88478 /* PBXBookmark */;
+			CD78319413AB14EC00E88478 /* PBXTextBookmark */ = CD78319413AB14EC00E88478 /* PBXTextBookmark */;
+			CD78319913AB14EF00E88478 /* PBXTextBookmark */ = CD78319913AB14EF00E88478 /* PBXTextBookmark */;
+			CD78319E13AB14FC00E88478 /* PBXTextBookmark */ = CD78319E13AB14FC00E88478 /* PBXTextBookmark */;
+			CD78319F13AB14FC00E88478 /* PBXBookmark */ = CD78319F13AB14FC00E88478 /* PBXBookmark */;
+			CD7831A013AB14FC00E88478 /* PBXTextBookmark */ = CD7831A013AB14FC00E88478 /* PBXTextBookmark */;
+			CD7831A313AB14FC00E88478 /* PBXTextBookmark */ = CD7831A313AB14FC00E88478 /* PBXTextBookmark */;
+			CD7831AA13AB167500E88478 /* PBXTextBookmark */ = CD7831AA13AB167500E88478 /* PBXTextBookmark */;
+			CD7831AB13AB167500E88478 /* PBXTextBookmark */ = CD7831AB13AB167500E88478 /* PBXTextBookmark */;
+			CD7831B313AB174000E88478 /* PBXTextBookmark */ = CD7831B313AB174000E88478 /* PBXTextBookmark */;
+			CD7831BD13AB177800E88478 /* PBXTextBookmark */ = CD7831BD13AB177800E88478 /* PBXTextBookmark */;
+			CD7831BE13AB177800E88478 /* PBXTextBookmark */ = CD7831BE13AB177800E88478 /* PBXTextBookmark */;
+			CD7831C713AB179E00E88478 /* PBXTextBookmark */ = CD7831C713AB179E00E88478 /* PBXTextBookmark */;
+			CD7831CA13AB17A700E88478 /* PBXTextBookmark */ = CD7831CA13AB17A700E88478 /* PBXTextBookmark */;
+			CD7831CB13AB17A700E88478 /* PBXTextBookmark */ = CD7831CB13AB17A700E88478 /* PBXTextBookmark */;
+			CD7831CD13AB184300E88478 /* PBXBookmark */ = CD7831CD13AB184300E88478 /* PBXBookmark */;
+			CD7831CE13AB18A000E88478 /* PBXTextBookmark */ = CD7831CE13AB18A000E88478 /* PBXTextBookmark */;
+			CD7831CF13AB18A000E88478 /* PBXTextBookmark */ = CD7831CF13AB18A000E88478 /* PBXTextBookmark */;
+			CD7831D213AB18A000E88478 /* PlistBookmark */ = CD7831D213AB18A000E88478 /* PlistBookmark */;
+			CD7831DC13AB196000E88478 /* PBXTextBookmark */ = CD7831DC13AB196000E88478 /* PBXTextBookmark */;
+			CD7831DD13AB196000E88478 /* XCBuildMessageTextBookmark */ = CD7831DD13AB196000E88478 /* XCBuildMessageTextBookmark */;
+			CD7831DE13AB196000E88478 /* PBXTextBookmark */ = CD7831DE13AB196000E88478 /* PBXTextBookmark */;
+			CD7831DF13AB196000E88478 /* PBXTextBookmark */ = CD7831DF13AB196000E88478 /* PBXTextBookmark */;
+			CD7831E513AB1ABB00E88478 /* XCBuildMessageTextBookmark */ = CD7831E513AB1ABB00E88478 /* XCBuildMessageTextBookmark */;
+			CD7831E613AB1ABB00E88478 /* PBXTextBookmark */ = CD7831E613AB1ABB00E88478 /* PBXTextBookmark */;
+			CD7831E713AB1AC600E88478 /* PBXTextBookmark */ = CD7831E713AB1AC600E88478 /* PBXTextBookmark */;
+			CD7831E813AB1AD100E88478 /* PBXTextBookmark */ = CD7831E813AB1AD100E88478 /* PBXTextBookmark */;
+			CD7831EF13AB1AF700E88478 /* PBXTextBookmark */ = CD7831EF13AB1AF700E88478 /* PBXTextBookmark */;
+			CD7831FA13AB1AFA00E88478 /* PBXTextBookmark */ = CD7831FA13AB1AFA00E88478 /* PBXTextBookmark */;
+			CD7831FB13AB1AFA00E88478 /* PBXTextBookmark */ = CD7831FB13AB1AFA00E88478 /* PBXTextBookmark */;
+			CD78320213AB1B2300E88478 /* PBXTextBookmark */ = CD78320213AB1B2300E88478 /* PBXTextBookmark */;
+			CD78320313AB1B2300E88478 /* PBXTextBookmark */ = CD78320313AB1B2300E88478 /* PBXTextBookmark */;
+			CD78320D13AB1B8C00E88478 /* PBXTextBookmark */ = CD78320D13AB1B8C00E88478 /* PBXTextBookmark */;
+			CD78320E13AB1B8C00E88478 /* PBXTextBookmark */ = CD78320E13AB1B8C00E88478 /* PBXTextBookmark */;
+			CD78321A13AB1D5600E88478 /* PBXTextBookmark */ = CD78321A13AB1D5600E88478 /* PBXTextBookmark */;
+			CD78321B13AB1D5600E88478 /* PBXTextBookmark */ = CD78321B13AB1D5600E88478 /* PBXTextBookmark */;
+			CD78322613AB1E2300E88478 /* PBXTextBookmark */ = CD78322613AB1E2300E88478 /* PBXTextBookmark */;
+			CD78322713AB1E2300E88478 /* PBXTextBookmark */ = CD78322713AB1E2300E88478 /* PBXTextBookmark */;
+			CD78322813AB1E2300E88478 /* PBXTextBookmark */ = CD78322813AB1E2300E88478 /* PBXTextBookmark */;
+			CD78323313AB1E7500E88478 /* PBXTextBookmark */ = CD78323313AB1E7500E88478 /* PBXTextBookmark */;
+			CD78323413AB1E7500E88478 /* PBXTextBookmark */ = CD78323413AB1E7500E88478 /* PBXTextBookmark */;
+			CD78323C13AB1ED700E88478 /* PBXTextBookmark */ = CD78323C13AB1ED700E88478 /* PBXTextBookmark */;
+			CD78323D13AB1ED700E88478 /* PBXTextBookmark */ = CD78323D13AB1ED700E88478 /* PBXTextBookmark */;
+			CD78324D13AB1F8A00E88478 /* PBXTextBookmark */ = CD78324D13AB1F8A00E88478 /* PBXTextBookmark */;
+			CD78324E13AB1F8A00E88478 /* PBXTextBookmark */ = CD78324E13AB1F8A00E88478 /* PBXTextBookmark */;
+			CD78325C13AB201800E88478 /* XCBuildMessageTextBookmark */ = CD78325C13AB201800E88478 /* XCBuildMessageTextBookmark */;
+			CD78325D13AB201800E88478 /* PBXTextBookmark */ = CD78325D13AB201800E88478 /* PBXTextBookmark */;
+			CD78325F13AB201A00E88478 /* PBXTextBookmark */ = CD78325F13AB201A00E88478 /* PBXTextBookmark */;
+			CD78326013AB201A00E88478 /* XCBuildMessageTextBookmark */ = CD78326013AB201A00E88478 /* XCBuildMessageTextBookmark */;
+			CD78326113AB201A00E88478 /* PBXTextBookmark */ = CD78326113AB201A00E88478 /* PBXTextBookmark */;
+			CD78326213AB201A00E88478 /* PBXTextBookmark */ = CD78326213AB201A00E88478 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CD78301213AAE4E300E88478 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 450}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 298}";
+		};
+	};
+	8D1AC9600486D14A00FE50C9 /* MicrosoftOfficePlugin */ = {
+		activeExec = 0;
+	};
+	8D1AC9730486D14A00FE50C9 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{67, 0}, {700, 778}}";
+		};
+	};
+	BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 450}}";
+			sepNavSelRange = "{419, 0}";
+			sepNavVisRange = "{0, 419}";
+		};
+	};
+	BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 450}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 340}";
+		};
+	};
+	BBF581820B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 450}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
+	};
+	BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1154, 1339}}";
+			sepNavSelRange = "{2326, 0}";
+			sepNavVisRange = "{754, 1592}";
+			sepNavWindowFrame = "{{67, 0}, {1213, 778}}";
+		};
+	};
+	CD78300713AAE4D100E88478 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+	};
+	CD78300813AAE4E300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	CD78300913AAE4E300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	CD78300F13AAE4E300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 0;
+	};
+	CD78301213AAE4E300E88478 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CD78301313AAE4E300E88478 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CD78301513AAE5BA00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	CD78301613AAE5BA00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 59";
+		rLen = 0;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 177;
+	};
+	CD78301B13AAE5E900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	CD78301C13AAE5E900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 34";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1589;
+		vrLoc = 177;
+	};
+	CD78302213AAE79200E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */;
+		name = "MicrosoftOfficePluginAction.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	CD78302313AAE79200E88478 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'NSURLBookmarkResolutionWithoutMounting' undeclared (first use in this function)";
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 28;
+		rType = 1;
+	};
+	CD78302413AAE79200E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 777;
+	};
+	CD78302513AAE79200E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 33";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 176;
+	};
+	CD78303513AAE7BD00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 394;
+	};
+	CD78303613AAE7BD00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 33";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 176;
+	};
+	CD78303913AAE7DD00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 34";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 173;
+	};
+	CD78303A13AAE7DD00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 0;
+	};
+	CD78303E13AAE7FB00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 67";
+		rLen = 0;
+		rLoc = 2339;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 851;
+	};
+	CD78303F13AAE7FB00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 0;
+	};
+	CD78304413AAE85100E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 35";
+		rLen = 0;
+		rLoc = 1114;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 621;
+	};
+	CD78304513AAE85100E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1520;
+		vrLoc = 0;
+	};
+	CD78304E13AAE8D500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1090;
+		vrLoc = 459;
+	};
+	CD78304F13AAE8D500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 0;
+	};
+	CD78306613AAE9C600E88478 /* QSClangAnalyzer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QSClangAnalyzer.h;
+		path = /tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {495, 923}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 319}";
+			sepNavWindowFrame = "{{67, 0}, {1213, 778}}";
+		};
+	};
+	CD78306813AB09AE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 784;
+	};
+	CD78306913AB09AE00E88478 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "#warning no has feature";
+		fRef = CD78306A13AB09AE00E88478 /* QSClangAnalyzer.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	CD78306A13AB09AE00E88478 /* QSClangAnalyzer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QSClangAnalyzer.h;
+		path = /tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {495, 923}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 319}";
+		};
+	};
+	CD78306B13AB09AE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD78306613AAE9C600E88478 /* QSClangAnalyzer.h */;
+		name = "QSClangAnalyzer.h: 11";
+		rLen = 0;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 0;
+	};
+	CD78306F13AB09B900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 36";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 1090;
+		vrLoc = 459;
+	};
+	CD78307013AB09B900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */;
+		name = "MicrosoftOfficePluginAction.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	CD78307113AB09B900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */;
+		name = "MicrosoftOfficePluginAction.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	CD78307213AB09B900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */;
+		name = "MicrosoftOfficePluginAction.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	CD78307313AB09B900E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 0;
+	};
+	CD78308013AB0A0D00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */;
+		name = "MicrosoftOfficePluginAction.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	CD78308113AB0A0D00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 0;
+	};
+	CD78308313AB0ABC00E88478 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+	};
+	CD78309413AB0BCE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 934;
+	};
+	CD78309513AB0BCE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 885;
+	};
+	CD78309C13AB0BDE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 885;
+	};
+	CD7830A613AB0BF500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */;
+		name = "MicrosoftOfficePluginAction.h: 20";
+		rLen = 0;
+		rLoc = 419;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	CD7830A713AB0BF500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 0;
+	};
+	CD7830AA13AB0BF500E88478 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			QSRegistrationTemplate,
+			QSObjectSources,
+		);
+		name = /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CD7830CB13AB0D5200E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 885;
+	};
+	CD78310C13AB0EFE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */;
+		name = "MicrosoftOfficePluginAction.h: 20";
+		rLen = 0;
+		rLoc = 419;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	CD78310D13AB0EFE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581820B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.h */;
+		name = "MicrosoftOfficePluginSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	CD78310E13AB0EFE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 36";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 461;
+	};
+	CD78310F13AB0EFE00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 36";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 461;
+	};
+	CD78312F13AB0FF100E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 27";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 63;
+	};
+	CD78313013AB0FF100E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 27";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 63;
+	};
+	CD78314813AB10E700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 862;
+	};
+	CD78315313AB126700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 27";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 63;
+	};
+	CD78319313AB14C900E88478 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+	};
+	CD78319413AB14EC00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 936;
+	};
+	CD78319913AB14EF00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 936;
+	};
+	CD78319E13AB14FC00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 27";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 63;
+	};
+	CD78319F13AB14FC00E88478 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+	};
+	CD7831A013AB14FC00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+		name = "MicrosoftOfficePlugin_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	CD7831A313AB14FC00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 43";
+		rLen = 0;
+		rLoc = 1737;
+		rType = 0;
+		vrLen = 1588;
+		vrLoc = 173;
+	};
+	CD7831AA13AB167500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+		name = "MicrosoftOfficePlugin_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	CD7831AB13AB167500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 44";
+		rLen = 0;
+		rLoc = 1737;
+		rType = 0;
+		vrLen = 1553;
+		vrLoc = 173;
+	};
+	CD7831B313AB174000E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 585;
+		vrLoc = 855;
+	};
+	CD7831BD13AB177800E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+		name = "MicrosoftOfficePlugin_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	CD7831BE13AB177800E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 48";
+		rLen = 0;
+		rLoc = 1901;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 393;
+	};
+	CD7831C713AB179E00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 29";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 936;
+	};
+	CD7831CA13AB17A700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+		name = "MicrosoftOfficePlugin_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	CD7831CB13AB17A700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 33";
+		rLen = 0;
+		rLoc = 753;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 393;
+	};
+	CD7831CD13AB184300E88478 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+	};
+	CD7831CE13AB18A000E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+		name = "MicrosoftOfficePlugin_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	CD7831CF13AB18A000E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 47";
+		rLen = 0;
+		rLoc = 1265;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 217;
+	};
+	CD7831D213AB18A000E88478 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CD7831DC13AB196000E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */;
+		name = "MicrosoftOfficePlugin_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	CD7831DD13AB196000E88478 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'path' undeclared (first use in this function)";
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 41;
+		rType = 1;
+	};
+	CD7831DE13AB196000E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 36";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 939;
+		vrLoc = 394;
+	};
+	CD7831DF13AB196000E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 35";
+		rLen = 0;
+		rLoc = 1114;
+		rType = 0;
+		vrLen = 1541;
+		vrLoc = 461;
+	};
+	CD7831E513AB1ABB00E88478 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'path' undeclared (first use in this function)";
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 41;
+		rType = 1;
+	};
+	CD7831E613AB1ABB00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 42";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 625;
+	};
+	CD7831E713AB1AC600E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 42";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 625;
+	};
+	CD7831E813AB1AD100E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 42";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 625;
+	};
+	CD7831EF13AB1AF700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 42";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 625;
+	};
+	CD7831FA13AB1AFA00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 42";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 394;
+	};
+	CD7831FB13AB1AFA00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 14;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 391;
+	};
+	CD78320213AB1B2300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 56";
+		rLen = 0;
+		rLoc = 1530;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 682;
+	};
+	CD78320313AB1B2300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 14;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1625;
+		vrLoc = 391;
+	};
+	CD78320D13AB1B8C00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 56";
+		rLen = 0;
+		rLoc = 1530;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 621;
+	};
+	CD78320E13AB1B8C00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 14;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1629;
+		vrLoc = 391;
+	};
+	CD78321A13AB1D5600E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 56";
+		rLen = 0;
+		rLoc = 1530;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 621;
+	};
+	CD78321B13AB1D5600E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 14;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1577;
+		vrLoc = 391;
+	};
+	CD78322113AB1E1D00E88478 /* MicrosoftOfficePluginSource.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		functionName = "-loadChildrenForObject:";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 34;
+		location = MicrosoftOfficePlugin;
+		modificationTime = 329981896.773013;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CD78322613AB1E2300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 60";
+		rLen = 32;
+		rLoc = 1699;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 463;
+	};
+	CD78322713AB1E2300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 60";
+		rLen = 32;
+		rLoc = 1699;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 463;
+	};
+	CD78322813AB1E2300E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 41";
+		rLen = 14;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1577;
+		vrLoc = 391;
+	};
+	CD78323313AB1E7500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 60";
+		rLen = 32;
+		rLoc = 1699;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 463;
+	};
+	CD78323413AB1E7500E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 85";
+		rLen = 0;
+		rLoc = 2326;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 754;
+	};
+	CD78323C13AB1ED700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 45";
+		rLen = 0;
+		rLoc = 1187;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 246;
+	};
+	CD78323D13AB1ED700E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 87";
+		rLen = 0;
+		rLoc = 2326;
+		rType = 0;
+		vrLen = 1651;
+		vrLoc = 754;
+	};
+	CD78324D13AB1F8A00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 45";
+		rLen = 0;
+		rLoc = 1187;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 461;
+	};
+	CD78324E13AB1F8A00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 86";
+		rLen = 0;
+		rLoc = 2326;
+		rType = 0;
+		vrLen = 1667;
+		vrLoc = 754;
+	};
+	CD78325C13AB201800E88478 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'IDPreferenceValuePairs'";
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 33;
+		rType = 1;
+	};
+	CD78325D13AB201800E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 34";
+		rLen = 0;
+		rLoc = 754;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 625;
+	};
+	CD78325F13AB201A00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */;
+		name = "MicrosoftOfficePlugin.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	CD78326013AB201A00E88478 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'IDPreferenceValuePairs'";
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 33;
+		rType = 1;
+	};
+	CD78326113AB201A00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 34";
+		rLen = 0;
+		rLoc = 754;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 391;
+	};
+	CD78326213AB201A00E88478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */;
+		name = "MicrosoftOfficePluginSource.m: 83";
+		rLen = 0;
+		rLoc = 2326;
+		rType = 0;
+		vrLen = 1592;
+		vrLoc = 754;
+	};
+	E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 450}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 251}";
+			sepNavWindowFrame = "{{67, 0}, {1213, 778}}";
+		};
+	};
+}

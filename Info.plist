@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qsapp.Quicksilver.MicrosoftOfficePlugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Microsoft Office Plugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.5.0</string>
+	<key>CFBundleVersion</key>
+	<string>4D</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011, QSApp</string>
+	<key>QSActions</key>
+	<dict/>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Patrick Robertson</string>
+		<key>categories</key>
+		<array>
+			<string>Applications</string>
+		</array>
+		<key>description</key>
+		<string>Interaction with Microsoft's Office Suite</string>
+		<key>extendedDescription</key>
+		<string>Enabled the finding of recent document for Microsoft Office Applications by right arrowing into the Applications</string>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSBundleChildHandlers</key>
+		<dict>
+			<key>com.microsoft.Excel</key>
+			<string>MicrosoftOfficePluginSource</string>
+			<key>com.microsoft.Powerpoint</key>
+			<string>MicrosoftOfficePluginSource</string>
+			<key>com.microsoft.Word</key>
+			<string>MicrosoftOfficePluginSource</string>
+		</dict>
+		<key>QSObjectSources</key>
+		<dict>
+			<key>MicrosoftOfficePluginSource</key>
+			<string>MicrosoftOfficePluginSource</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
