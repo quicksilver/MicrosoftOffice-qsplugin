@@ -1,1248 +1,0 @@
-TMicrosoftOfficePlugin
-v7
-r0
-t329967415.927294
-cCheck dependencies
-cProcessInfoPlistFile /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/Info.plist Info.plist
-cProcessPCH /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch.gch MicrosoftOfficePlugin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginAction.o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginSource.o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cPhaseScriptExecution "Run Script" /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Script-E1022B2806B3475D00299BEC.sh
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.h
-c000000004DFAAD2500000000000000FE
-t1308273957
-s254
-i<QSCore/QSObject.h>
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m
-c000000004DFAAD2500000000000000FB
-t1308273957
-s251
-i"MicrosoftOfficePlugin.h"
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.h
-c000000004DFAAD2500000000000001A3
-t1308273957
-s419
-i<QSCore/QSObject.h>
-i<QSCore/QSActionProvider.h>
-i"MicrosoftOfficePluginAction.h"
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m
-c000000004DFAAD250000000000000154
-t1308273957
-s340
-i"MicrosoftOfficePluginAction.h"
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.h
-c000000004DFAAD250000000000000156
-t1308273957
-s342
-i<QSCore/QSObjectSource.h>
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m
-c000000004DFAAE8A000000000000082E
-t1308274314
-s2094
-i"MicrosoftOfficePluginSource.h"
-i<QSCore/QSObject.h>
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch
-c000000004DFAAD25000000000000012A
-t1308273957
-s298
-i<Cocoa/Cocoa.h>
-i<QSFoundation/QSFoundation.h>
-i<QSCore/QSCore.h>
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin
-t2
-s0
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/Info.plist
-t1308274601
-s2786
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/MacOS/MicrosoftOfficePlugin
-t2
-s0
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.LinkFileList
-c000000004DFAAFA90000000000000219
-t1308274601
-s537
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.o
-t1308274610
-s4856
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginAction.o
-t1308274610
-s8508
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginSource.o
-t2
-s0
-
-N/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Script-E1022B2806B3475D00299BEC.sh
-c000000004DFAAFA9000000000000002F
-t1308274601
-s47
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004A49A9E400000000000000EE
-t1246341604
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
-c000000004864CDF300000000000002C0
-t1214565875
-s704
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-c000000004864BB88000000000000170F
-t1214561160
-s5903
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c000000004864BE3E00000000000005D7
-t1214561854
-s1495
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004864A1C900000000000012EE
-t1214554569
-s4846
-
-N/Developer/SDKs/MacOSX10.5.sdk/usr/include/AvailabilityMacros.h
-c000000004817F968000000000000506E
-t1209530728
-s20590
-
-N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/event.h
-c0000000047E883CF0000000000002105
-t1206420431
-s8453
-
-N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
-c0000000047E883D2000000000000290F
-t1206420434
-s10511
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/NSString_Purification.h
-c000000004DF807B70000000000000100
-t1308100535
-s256
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSAction.h
-c000000004DF807B70000000000000CA6
-t1308100535
-s3238
-i<Foundation/Foundation.h>
-i<QSCore/QSObject.h>
-i<QSCore/QSObjectRanker.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSActionProvider.h
-c000000004DF807B70000000000000398
-t1308100535
-s920
-i<Foundation/Foundation.h>
-i"QSAction.h"
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSAlertManager.h
-c000000004DF807B7000000000000034F
-t1308100535
-s847
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSBadgeImage.h
-c000000004DF807B7000000000000011B
-t1308100535
-s283
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSBasicObject.h
-c000000004DF807B7000000000000073A
-t1308100535
-s1850
-i<Cocoa/Cocoa.h>
-i<QSCore/QSObjectRanker.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSBuildOptions.h
-c000000004DF807B700000000000000C2
-t1308100535
-s194
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSCatalogEntry.h
-c000000004DF807B70000000000000804
-t1308100535
-s2052
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h
-c000000004DF807B70000000000000651
-t1308100535
-s1617
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSCollection.h
-c000000004DF807B70000000000000125
-t1308100535
-s293
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSCommand.h
-c000000004DF807B70000000000000432
-t1308100535
-s1074
-i<Foundation/Foundation.h>
-i<QSCore/QSObject.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSComputerSource.h
-c000000004DF807B7000000000000008C
-t1308100535
-s140
-i<Foundation/Foundation.h>
-i"QSProxyObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSCore.h
-c000000004DF807B70000000000000773
-t1308100535
-s1907
-i"NSString_Purification.h"
-i"QSAction.h"
-i"QSActionProvider.h"
-i"QSAlertManager.h"
-i"QSBadgeImage.h"
-i"QSBasicObject.h"
-i"QSBuildOptions.h"
-i"QSCatalogEntry.h"
-i"QSCollection.h"
-i"QSCommand.h"
-i"QSComputerSource.h"
-i"QSDebug.h"
-i"QSDefines.h"
-i"QSense.h"
-i"QSExecutor.h"
-i"QSFeatureLevel.h"
-i"QSGlobalSelectionProvider.h"
-i"QSHandledObjectHandler.h"
-i"QSHelp.h"
-i"QSHistoryController.h"
-i"QSIconLoader.h"
-i"QSInterfaceMediator.h"
-i"QSKeys.h"
-i"QSLibrarian.h"
-i"QSLocalization.h"
-i"QSMacros.h"
-i"QSMiscFunctions.h"
-i"QSMnemonics.h"
-i"QSNotifications.h"
-i"QSNotifyMediator.h"
-i"QSNullObject.h"
-i"QSObjCMessageSource.h"
-i"QSObject.h"
-i"QSObject_AEConversion.h"
-i"QSObject_Drag.h"
-i"QSObject_FileHandling.h"
-i"QSObject_Menus.h"
-i"QSObject_Pasteboard.h"
-i"QSObject_PropertyList.h"
-i"QSObject_StringHandling.h"
-i"QSObject_URLHandling.h"
-i"QSObjectFormatter.h"
-i"QSObjectRanker.h"
-i"QSObjectSource.h"
-i"QSParser.h"
-i"QSPaths.h"
-i"QSPlugIn.h"
-i"QSPlugInManager.h"
-i"QSPreferenceKeys.h"
-i"QSProcessMonitor.h"
-i"QSProcessSource.h"
-i"QSProxyObject.h"
-i"QSProxyObjectSource.h"
-i"QSRankedObject.h"
-i"QSRegistry.h"
-i"QSResourceManager.h"
-i"QSStringRanker.h"
-i"QSTask.h"
-i"QSTaskController.h"
-i"QSTextProxy.h"
-i"QSTrigger.h"
-i"QSTriggerCenter.h"
-i"QSTriggerManager.h"
-i"QSTypes.h"
-i"QSURLDownloadWrapper.h"
-i"QSVoyeur.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSDebug.h
-c000000004DF9E8A3000000000000028E
-t1308223651
-s654
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSDefines.h
-c000000004DF807B70000000000000054
-t1308100535
-s84
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSExecutor.h
-c000000004DF807B700000000000008CE
-t1308100535
-s2254
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSFeatureLevel.h
-c000000004DF807B70000000000000123
-t1308100535
-s291
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSGlobalSelectionProvider.h
-c000000004DF807B70000000000000194
-t1308100535
-s404
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSHandledObjectHandler.h
-c000000004DF807B70000000000000144
-t1308100535
-s324
-i<Cocoa/Cocoa.h>
-i<QSCore/QSObjectSource.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSHelp.h
-c000000004DF807B700000000000000B9
-t1308100535
-s185
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSHistoryController.h
-c000000004DF807B7000000000000022D
-t1308100535
-s557
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSIconLoader.h
-c000000004DF807B70000000000000308
-t1308100535
-s776
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSInterfaceMediator.h
-c000000004DF807B700000000000001F6
-t1308100535
-s502
-i<Cocoa/Cocoa.h>
-i"QSRegistry.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSKeys.h
-c000000004DF807B70000000000000355
-t1308100535
-s853
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSLibrarian.h
-c000000004DF807B70000000000001063
-t1308100535
-s4195
-i<Foundation/Foundation.h>
-i"QSCatalogEntry.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSLocalization.h
-c000000004DF807B70000000000000230
-t1308100535
-s560
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSMacros.h
-c000000004DF807B7000000000000041B
-t1308100535
-s1051
-i<AvailabilityMacros.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSMiscFunctions.h
-c000000004DF807B700000000000000EB
-t1308100535
-s235
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSMnemonics.h
-c000000004DF807B70000000000000418
-t1308100535
-s1048
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSNotifications.h
-c000000004DF807B700000000000003BC
-t1308100535
-s956
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSNotifyMediator.h
-c000000004DF807B700000000000003A1
-t1308100535
-s929
-i"QSRegistry.h"
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSNullObject.h
-c000000004DF807B7000000000000012A
-t1308100535
-s298
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObjCMessageSource.h
-c000000004DF807B700000000000002E2
-t1308100535
-s738
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject.h
-c000000004DF807B70000000000001ACB
-t1308100535
-s6859
-i<Foundation/Foundation.h>
-i<AddressBook/AddressBook.h>
-i<QSCore/QSBasicObject.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObjectFormatter.h
-c000000004DF807B7000000000000005C
-t1308100535
-s92
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObjectRanker.h
-c000000004DF807B7000000000000048A
-t1308100535
-s1162
-i<Cocoa/Cocoa.h>
-i<QSCore/QSStringRanker.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObjectSource.h
-c000000004DF807B7000000000000056E
-t1308100535
-s1390
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_AEConversion.h
-c000000004DF807B70000000000000150
-t1308100535
-s336
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_Drag.h
-c000000004DF807B7000000000000017E
-t1308100535
-s382
-i<Foundation/Foundation.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_FileHandling.h
-c000000004DF807B7000000000000063A
-t1308100535
-s1594
-i<Foundation/Foundation.h>
-i<QSCore/QSClangAnalyzer.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_Menus.h
-c000000004DF807B70000000000000186
-t1308100535
-s390
-i<Foundation/Foundation.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_Pasteboard.h
-c000000004DF9EB750000000000000350
-t1308224373
-s848
-i<Foundation/Foundation.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_PropertyList.h
-c000000004DF807B70000000000000289
-t1308100535
-s649
-i<Foundation/Foundation.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_StringHandling.h
-c000000004DF807B700000000000001DE
-t1308100535
-s478
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_URLHandling.h
-c000000004DF9EBA600000000000001A8
-t1308224422
-s424
-i<Foundation/Foundation.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSParser.h
-c000000004DF807B70000000000000251
-t1308100535
-s593
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSPaths.h
-c000000004DF807B700000000000005E1
-t1308100535
-s1505
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSPlugIn.h
-c000000004DF9E8A3000000000000075A
-t1308223651
-s1882
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSPlugInManager.h
-c000000004DF807B7000000000000101A
-t1308100535
-s4122
-i<Cocoa/Cocoa.h>
-i<QSCore/QSURLDownloadWrapper.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSPreferenceKeys.h
-c000000004DF807B700000000000008DE
-t1308100535
-s2270
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSProcessMonitor.h
-c000000004DF807B70000000000000520
-t1308100535
-s1312
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSProcessSource.h
-c000000004DF807B7000000000000062E
-t1308100535
-s1582
-i<Cocoa/Cocoa.h>
-i"QSObjectSource.h"
-i"QSActionProvider.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSProxyObject.h
-c000000004DF807B7000000000000044C
-t1308100535
-s1100
-i<Cocoa/Cocoa.h>
-i<QSCore/QSObject.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSProxyObjectSource.h
-c000000004DF807B70000000000000113
-t1308100535
-s275
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSRankedObject.h
-c000000004DF807B70000000000000314
-t1308100535
-s788
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSRegistry.h
-c000000004DF807B70000000000000CA4
-t1308100535
-s3236
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSResourceManager.h
-c000000004DF807B7000000000000062E
-t1308100535
-s1582
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSStringRanker.h
-c000000004DF807B70000000000000200
-t1308100535
-s512
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTask.h
-c000000004DF807B70000000000000599
-t1308100535
-s1433
-i<Cocoa/Cocoa.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTaskController.h
-c000000004DF807B70000000000000404
-t1308100535
-s1028
-i<AppKit/AppKit.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTextProxy.h
-c000000004DF807B700000000000000C5
-t1308100535
-s197
-i<Foundation/Foundation.h>
-i"QSObject.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTrigger.h
-c000000004DF807B70000000000000454
-t1308100535
-s1108
-i<Cocoa/Cocoa.h>
-i"QSCommand.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTriggerCenter.h
-c000000004DF807B700000000000004ED
-t1308100535
-s1261
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTriggerManager.h
-c000000004DF807B7000000000000022B
-t1308100535
-s555
-i<Cocoa/Cocoa.h>
-i"QSTrigger.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSTypes.h
-c000000004DF807B700000000000009B8
-t1308100535
-s2488
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSURLDownloadWrapper.h
-c000000004DF807B70000000000000480
-t1308100535
-s1152
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSVoyeur.h
-c000000004DF807B700000000000000D6
-t1308100535
-s214
-i<Foundation/Foundation.h>
-i"UKKQueue.h"
-i"UKFileWatcher.h"
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/QSense.h
-c000000004DF807B700000000000000E3
-t1308100535
-s227
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/UKFileWatcher.h
-c000000004DF807B700000000000008B1
-t1308100535
-s2225
-
-N/tmp/QS/build/Release/QSCore.framework/Headers/UKKQueue.h
-c000000004DF807B7000000000000112E
-t1308100535
-s4398
-i<Foundation/Foundation.h>
-i<sys/types.h>
-i<sys/event.h>
-i"UKFileWatcher.h"
-
-N/tmp/QS/build/Release/QSCore.framework/QSCore
-c000000004DF9EBAE0000000000074F58
-t1308224430
-s479064
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/CGSPrivate.h
-c000000004DF807AB0000000000002F1D
-t1308100523
-s12061
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/CPS.h
-c000000004DF807AB000000000000151F
-t1308100523
-s5407
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDAlias+AliasFile.h
-c000000004DF807AB000000000000165F
-t1308100523
-s5727
-i<Cocoa/Cocoa.h>
-i"NDAlias.h"
-i"NDSDKCompatibility.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDAlias+QSMods.h
-c000000004DF807AB0000000000000106
-t1308100523
-s262
-i<Foundation/Foundation.h>
-i"NDAlias.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDAlias.h
-c000000004DF807AB0000000000004A18
-t1308100523
-s18968
-i<Foundation/Foundation.h>
-i"NDSDKCompatibility.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDAppleScriptObject.h
-c000000004DF807AB0000000000009DFF
-t1308100523
-s40447
-i<Foundation/Foundation.h>
-i<Carbon/Carbon.h>
-i"NDAppleScriptObject_Protocols.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDAppleScriptObject_Protocols.h
-c000000004DF807AB000000000000130A
-t1308100523
-s4874
-i<Foundation/Foundation.h>
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDComponentInstance.h
-c000000004DF807AB0000000000001718
-t1308100523
-s5912
-i<Cocoa/Cocoa.h>
-i"NDAppleScriptObject_Protocols.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDHotKeyEvent.h
-c000000004DF807AB0000000000005412
-t1308100523
-s21522
-i<Cocoa/Cocoa.h>
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDProcess+QSMods.h
-c000000004DF807AB0000000000000141
-t1308100523
-s321
-i<Cocoa/Cocoa.h>
-i"NDProcess.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDProcess.h
-c000000004DF807AB0000000000003163
-t1308100523
-s12643
-i<Cocoa/Cocoa.h>
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDResourceFork+OtherSorces.h
-c000000004DF807AB000000000000086A
-t1308100523
-s2154
-i<Cocoa/Cocoa.h>
-i"NDResourceFork.h"
-i"NDSDKCompatibility.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDResourceFork.h
-c000000004DF807AB00000000000062CF
-t1308100523
-s25295
-i<Foundation/Foundation.h>
-i<Carbon/Carbon.h>
-i"NDSDKCompatibility.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NDSDKCompatibility.h
-c000000004DF807AB00000000000002C1
-t1308100523
-s705
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSAppleEventDescriptor+NDAppleScriptObject.h
-c000000004DF807AB00000000000112E2
-t1308100523
-s70370
-i<Foundation/Foundation.h>
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSAppleEventDescriptor_QSMods.h
-c000000004DF807AB0000000000000285
-t1308100523
-s645
-i<Cocoa/Cocoa.h>
-i"NSAppleEventDescriptor+NDAppleScriptObject.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSAppleScript_BLTRExtensions.h
-c000000004DF807AB000000000000036B
-t1308100523
-s875
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSApplication_BLTRExtensions.h
-c000000004DF9E8910000000000000898
-t1308223633
-s2200
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSArray_BLTRExtensions.h
-c000000004DF9EB980000000000000496
-t1308224408
-s1174
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSBezierPath_BLTRExtensions.h
-c000000004DF807AB00000000000001AF
-t1308100523
-s431
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSBundle_BLTRExtensions.h
-c000000004DF807AB0000000000000A45
-t1308100523
-s2629
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSButton-NTExtensions.h
-c000000004DF807AB00000000000000F9
-t1308100523
-s249
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSColor_QSModifications.h
-c000000004DF807AB00000000000001B6
-t1308100523
-s438
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSCursor_InformExtensions.h
-c000000004DF807AB000000000000011D
-t1308100523
-s285
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSData_RangeExtensions.h
-c000000004DF807AB00000000000000F8
-t1308100523
-s248
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSDictionary+BLTRExtensions.h
-c000000004DF807AB000000000000011D
-t1308100523
-s285
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSEvent+BLTRExtensions.h
-c000000004DF807AB0000000000000221
-t1308100523
-s545
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSException_TraceExtensions.h
-c000000004DF807AB00000000000000E9
-t1308100523
-s233
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSFileManager_BLTRExtensions.h
-c000000004DF807AB0000000000000555
-t1308100523
-s1365
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSGeometry_BLTRExtensions.h
-c000000004DF807AB00000000000005CF
-t1308100523
-s1487
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSImage+QuickLook.h
-c000000004DF807AB0000000000000103
-t1308100523
-s259
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSImage_BLTRExtensions.h
-c000000004DF807AB000000000000054E
-t1308100523
-s1358
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSIndexSet+Extensions.h
-c000000004DF807AB0000000000000101
-t1308100523
-s257
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSMetadataItem+BLTRExtensions.h
-c000000004DF807AB000000000000018F
-t1308100523
-s399
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSObject+BLTRExtensions.h
-c000000004DF807AB00000000000000EF
-t1308100523
-s239
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSObject+ReaperExtensions.h
-c000000004DF807AB0000000000000173
-t1308100523
-s371
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSPasteboard_BLTRExtensions.h
-c000000004DF807AB0000000000000123
-t1308100523
-s291
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSScreen_BLTRExtensions.h
-c000000004DF807AB000000000000014C
-t1308100523
-s332
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSSortDescriptor+BLTRExtensions.h
-c000000004DF807AB0000000000000231
-t1308100523
-s561
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSStatusItem_BLTRExtensions.h
-c000000004DF807AB00000000000002B6
-t1308100523
-s694
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSString+CarbonUtilities.h
-c000000004DF807AB0000000000000402
-t1308100523
-s1026
-i<Cocoa/Cocoa.h>
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSString+NDCarbonUtilities.h
-c000000004DF807AB0000000000002B98
-t1308100523
-s11160
-i<Cocoa/Cocoa.h>
-i<Carbon/Carbon.h>
-i"NDSDKCompatibility.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSString+NDUtilities.h
-c000000004DF807AB0000000000000F1F
-t1308100523
-s3871
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSString_BLTRExtensions.h
-c000000004DF9EB6B00000000000008C9
-t1308224363
-s2249
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSTableView_BLTRExtensions.h
-c000000004DF807AB00000000000001E2
-t1308100523
-s482
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSTask+BLTRExtensions.h
-c000000004DF807AB000000000000013E
-t1308100523
-s318
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSURL+NDCarbonUtilities.h
-c000000004DF807AB0000000000001E63
-t1308100523
-s7779
-i<Foundation/Foundation.h>
-i<Carbon/Carbon.h>
-i"NDSDKCompatibility.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSURL_BLTRExtensions.h
-c000000004DF807AB0000000000000114
-t1308100523
-s276
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSUserDefaults_BLTRExtensions.h
-c000000004DF807AB0000000000000105
-t1308100523
-s261
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSView_BLTRExtensions.h
-c000000004DF807AB0000000000000135
-t1308100523
-s309
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSWindow_BLTRExtensions.h
-c000000004DF807AB00000000000002EC
-t1308100523
-s748
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NSWorkspace_BLTRExtensions.h
-c000000004DF807AB000000000000061B
-t1308100523
-s1563
-i<Foundation/Foundation.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NTLocalizedString.h
-c000000004DF807AB00000000000001B5
-t1308100523
-s437
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/NTViewLocalizer.h
-c000000004DF807AB00000000000001B9
-t1308100523
-s441
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSFoundation.h
-c000000004DF807AB0000000000000859
-t1308100523
-s2137
-i"CGSPrivate.h"
-i"CPS.h"
-i"NDAlias+AliasFile.h"
-i"NDAlias.h"
-i"NDAppleScriptObject.h"
-i"NDAppleScriptObject_Protocols.h"
-i"NDComponentInstance.h"
-i"NDHotKeyEvent.h"
-i"NDProcess.h"
-i"NDResourceFork+OtherSorces.h"
-i"NDResourceFork.h"
-i"NDSDKCompatibility.h"
-i"NSAppleEventDescriptor+NDAppleScriptObject.h"
-i"NSButton-NTExtensions.h"
-i"NSImage+QuickLook.h"
-i"NSString+NDCarbonUtilities.h"
-i"NSString+NDUtilities.h"
-i"NSURL+NDCarbonUtilities.h"
-i"NTLocalizedString.h"
-i"NTViewLocalizer.h"
-i"NSString+CarbonUtilities.h"
-i"UKDirectoryEnumerator.h"
-i"QSUTI.h"
-i"QSTreeController.h"
-i"QSMDPredicate.h"
-i"QSLSTools.h"
-i"QSLoginItemFunctions.h"
-i"QSLog.h"
-i"QSKeyCodeTranslator.h"
-i"QSHotKeyEvent.h"
-i"NSWorkspace_BLTRExtensions.h"
-i"NSWindow_BLTRExtensions.h"
-i"NSView_BLTRExtensions.h"
-i"NSUserDefaults_BLTRExtensions.h"
-i"NSURL_BLTRExtensions.h"
-i"NSTask+BLTRExtensions.h"
-i"NSTableView_BLTRExtensions.h"
-i"NSString_BLTRExtensions.h"
-i"NSStatusItem_BLTRExtensions.h"
-i"NSSortDescriptor+BLTRExtensions.h"
-i"NSScreen_BLTRExtensions.h"
-i"NSPasteboard_BLTRExtensions.h"
-i"NSObject+ReaperExtensions.h"
-i"NSObject+BLTRExtensions.h"
-i"NSMetadataItem+BLTRExtensions.h"
-i"NSIndexSet+Extensions.h"
-i"NSImage_BLTRExtensions.h"
-i"NSGeometry_BLTRExtensions.h"
-i"NSFileManager_BLTRExtensions.h"
-i"NSException_TraceExtensions.h"
-i"NSEvent+BLTRExtensions.h"
-i"NSDictionary+BLTRExtensions.h"
-i"NSData_RangeExtensions.h"
-i"NSCursor_InformExtensions.h"
-i"NSColor_QSModifications.h"
-i"NSBundle_BLTRExtensions.h"
-i"NSBezierPath_BLTRExtensions.h"
-i"NSArray_BLTRExtensions.h"
-i"NSApplication_BLTRExtensions.h"
-i"NSAppleScript_BLTRExtensions.h"
-i"NSAppleEventDescriptor_QSMods.h"
-i"NDProcess+QSMods.h"
-i"NDAlias+QSMods.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSHotKeyEvent.h
-c000000004DF807AB00000000000002BF
-t1308100523
-s703
-i<Cocoa/Cocoa.h>
-i"NDHotKeyEvent.h"
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSKeyCodeTranslator.h
-c000000004DF807AB000000000000015A
-t1308100523
-s346
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSLSTools.h
-c000000004DF807AB000000000000011A
-t1308100523
-s282
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSLog.h
-c000000004DF807AB00000000000000CE
-t1308100523
-s206
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSLoginItemFunctions.h
-c000000004DF807AB0000000000000126
-t1308100523
-s294
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSMDPredicate.h
-c000000004DF807AB0000000000000155
-t1308100523
-s341
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSTreeController.h
-c000000004DF807AB00000000000000EC
-t1308100523
-s236
-i<Cocoa/Cocoa.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/QSUTI.h
-c000000004DF807AB00000000000000F8
-t1308100523
-s248
-
-N/tmp/QS/build/Release/QSFoundation.framework/Headers/UKDirectoryEnumerator.h
-c000000004DF807AB00000000000026E6
-t1308100523
-s9958
-i<Foundation/Foundation.h>
-i<Carbon/Carbon.h>
-
-N/tmp/QS/build/Release/QSFoundation.framework/QSFoundation
-c000000004DF9EBA6000000000004DA60
-t1308224422
-s318048
-
-N/var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-dvhpvctxkhiildbswbtjtukefzna/MicrosoftOfficePlugin_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch.gch
-t1308274609
-s66437040
-
-NInfo.plist
-c000000004DFAAFA50000000000000956
-t1308274597
-s2390
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies329967401#329967401#0(0"0(0#1#0"8701835648#0"0#
-
-CCompileC build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s329967410.092484
-e329967410.510733
-r1
-xCompileC
-xbuild/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.o
-x/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m329967410#329967410#0(0"0(0#0#80"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m8667475296#1429"    cd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/MicrosoftOfficePlugin.hmap -F/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development -F/tmp/QS/build/Release -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/include -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources/i386 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources -include /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch -c /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.m -o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.o0#
-
-CCompileC build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginAction.o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s329967410.103952
-e329967410.624591
-r1
-xCompileC
-xbuild/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginAction.o
-x/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m329967410#329967410#0(0"0(0#0#86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m8648017760#1441"    cd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/MicrosoftOfficePlugin.hmap -F/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development -F/tmp/QS/build/Release -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/include -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources/i386 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources -include /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch -c /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginAction.m -o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginAction.o0#
-
-CCompileC build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginSource.o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s329967410.510841
-e329967410.765496
-r0
-xCompileC
-xbuild/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginSource.o
-x/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:33:79: warning: unknown escape sequence '\F'
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:33:79: warning: unknown escape sequence '\M'
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m: In function '-[MicrosoftOfficePluginSource objectsForEntry:]':
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: 'NSURLBookmarkResolutionWithoutMounting' undeclared (first use in this function)
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: (Each undeclared identifier is reported only once
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: for each function it appears in.)
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: 'NSURLBookmarkResolutionWithoutUI' undeclared (first use in this function)
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: 'NSURL' may not respond to '+URLByResolvingBookmarkData:options:relativeToURL:bookmarkDataIsStale:error:'
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: (Messages without a matching method signature
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: will be assumed to return 'id' and accept
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: '...' as arguments.)
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:58: error: 'object' undeclared (first use in this function)
-o/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:59: warning: return makes pointer from integer without a cast
-lSLF07#2@94"Compile /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967410#329967410#0(1958"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:33:79: warning: unknown escape sequence '\F'/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:33:79: warning: unknown escape sequence '\M'/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m: In function '-[MicrosoftOfficePluginSource objectsForEntry:]':/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: 'NSURLBookmarkResolutionWithoutMounting' undeclared (first use in this function)/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: (Each undeclared identifier is reported only once/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: for each function it appears in.)/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:41: error: 'NSURLBookmarkResolutionWithoutUI' undeclared (first use in this function)/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: 'NSURL' may not respond to '+URLByResolvingBookmarkData:options:relativeToURL:bookmarkDataIsStale:error:'/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: (Messages without a matching method signature/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: will be assumed to return 'id' and accept/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:44: warning: '...' as arguments.)/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:58: error: 'object' undeclared (first use in this function)/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m:59: warning: return makes pointer from integer without a cast8(22@28"Unknown escape sequence '\F'329967410#0#132#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#33#0#33#0#0"0(22@28"Unknown escape sequence '\M'329967410#132#132#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#33#0#33#0#0"0(4@80"'NSURLBookmarkResolutionWithoutMounting' undeclared (first use in this function)329967410#415#179#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#41#0#41#0#43"'*' undeclared (first use in this function)0(4@74"'NSURLBookmarkResolutionWithoutUI' undeclared (first use in this function)329967410#874#173#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#41#0#41#0#43"'*' undeclared (first use in this function)0(22@105"'NSURL' may not respond to '+URLByResolvingBookmarkData:options:relativeToURL:bookmarkDataIsStale:error:'329967410#1047#206#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#44#0#44#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)329967410#1253#146#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#44#0#44#0#0"0(4@48"'object' undeclared (first use in this function)329967410#1662#147#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#58#0#58#0#43"'*' undeclared (first use in this function)0(22@48"Return makes pointer from integer without a cast329967410#1809#149#0(6@86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m329967114#59#0#59#0#0"0(0#0#86"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m8677600480#1441"    cd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/MicrosoftOfficePlugin.hmap -F/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development -F/tmp/QS/build/Release -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/include -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources/i386 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources -include /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch -c /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePluginSource.m -o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePluginSource.o1#
-
-CLd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/MacOS/MicrosoftOfficePlugin normal i386
-r0
-
-CPhaseScriptExecution "Run Script" /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Script-E1022B2806B3475D00299BEC.sh
-s329967410.765616
-e329967415.927168
-r1
-xPhaseScriptExecution
-xRun Script
-x/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Script-E1022B2806B3475D00299BEC.sh
-o2011-06-17 11:36:55.515 bltrversion[33256:903] CFBundleVersion set to 0x1B
-lSLF07#2@36"Run custom shell script 'Run Script'329967410#329967415#0(75"2011-06-17 11:36:55.515 bltrversion[33256:903] CFBundleVersion set to 0x1B1(13@75"2011-06-17 11:36:55.515 bltrversion[33256:903] CFBundleVersion set to 0x1B329967415#0#75#0(1@0"0(0#0#0"8646655424#18579"    cd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER patrick    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build    setenv BUILD_ROOT /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build    setenv BUILD_STYLE Development    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development    setenv CACHE_ROOT /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Development    setenv CONFIGURATION_BUILD_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development    setenv CONFIGURATION_TEMP_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development    setenv CONTENTS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv Configuration /Developer/Apps/QS/blacktree-alchemy/Configuration    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources    setenv DERIVED_FILE_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/MicrosoftOfficePlugin.dst    setenv DWARF_DSYM_FILE_NAME MicrosoftOfficePlugin.qsplugin.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/MacOS    setenv EXECUTABLE_NAME MicrosoftOfficePlugin    setenv EXECUTABLE_PATH MicrosoftOfficePlugin.qsplugin/Contents/MacOS/MicrosoftOfficePlugin    setenv FILE_LIST /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development\" /tmp/QS/build/Release"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MicrosoftOfficePlugin.qsplugin    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER MicrosoftOfficePlugin_Prefix.pch    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH MicrosoftOfficePlugin.qsplugin/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH MicrosoftOfficePlugin.qsplugin/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/MicrosoftOfficePlugin.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER patrick    setenv INSTALL_ROOT /tmp/MicrosoftOfficePlugin.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/MicrosoftOfficePlugin-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal/i386/MicrosoftOfficePlugin.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects    setenv OBJECT_FILE_DIR_normal /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Objects-normal    setenv OBJROOT /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS -bundle    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MicrosoftOfficePlugin.qsplugin/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/PkgInfo    setenv PKGINFO_PATH MicrosoftOfficePlugin.qsplugin/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2518    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/PlugIns    setenv PREBINDING YES    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/PrivateHeaders    setenv PRODUCT_NAME MicrosoftOfficePlugin    setenv PRODUCT_SETTINGS_PATH /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT MicrosoftOfficePlugin    setenv PROJECT_DERIVED_FILE_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/DerivedSources    setenv PROJECT_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv PROJECT_FILE_PATH /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin.xcodeproj    setenv PROJECT_NAME MicrosoftOfficePlugin    setenv PROJECT_TEMP_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build    setenv PUBLIC_HEADERS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Headers    setenv QSFramework /Applications/Quicksilver.app/Contents/Frameworks/    setenv QSFrameworks /tmp/QS/build/Release    setenv QS_BUILD_ROOT /Developer/Apps/QS/Quicksilver/Quicksilver    setenv QS_SOURCE_ROOT /Developer/Apps/QS/Quicksilver/Quicksilver    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_NAME macosx10.5    setenv SDK_PRODUCT_BUILD_VERSION 9L31a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv SRCROOT /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SYMBOL_REPOSITORY_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/SymbolRepositories    setenv SYMROOT /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME MicrosoftOfficePlugin    setenv TARGET_BUILD_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development    setenv TARGET_NAME MicrosoftOfficePlugin    setenv TARGET_TEMP_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build    setenv TEMP_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build    setenv TEMP_FILES_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build    setenv TEMP_FILE_DIR /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build    setenv TEMP_ROOT /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MicrosoftOfficePlugin.qsplugin/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER patrick    setenv USER_APPS_DIR /Users/patrick/Applications    setenv USER_LIBRARY_DIR /Users/patrick/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MicrosoftOfficePlugin.qsplugin/Contents/version.plist    setenv VERSION_INFO_BUILDER patrick    setenv VERSION_INFO_FILE MicrosoftOfficePlugin_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MicrosoftOfficePlugin  PROJECT:MicrosoftOfficePlugin-\""    setenv WRAPPER_EXTENSION qsplugin    setenv WRAPPER_NAME MicrosoftOfficePlugin.qsplugin    setenv WRAPPER_SUFFIX .qsplugin    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2518    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    setenv _REAL_SDKROOT macosx10.5    /bin/sh -c /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/Script-E1022B2806B3475D00299BEC.sh0#
-
-CProcessInfoPlistFile /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/Info.plist Info.plist
-s329967401.849841
-e329967401.885644
-r1
-xProcessInfoPlistFile
-x/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist329967401#329967401#0(0"0(0#0#67"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/Info.plist8658066048#271"    cd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin/Contents/Info.plist0#
-
-CProcessPCH /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-dvhpvctxkhiildbswbtjtukefzna/MicrosoftOfficePlugin_Prefix.pch.gch MicrosoftOfficePlugin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch.gch MicrosoftOfficePlugin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s329967401.885781
-e329967410.092202
-r1
-xProcessPCH
-x/var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch.gch
-xMicrosoftOfficePlugin_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /tmp/QS/build/Release/QSCore.framework/Headers/QSObject_FileHandling.h:2,
-o                 from /tmp/QS/build/Release/QSCore.framework/Headers/QSCore.h:45,
-o                 from /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch:8:
-o/tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h:11:2: warning: #warning no has feature
-lSLF07#2@43"Precompile MicrosoftOfficePlugin_Prefix.pch329967401#329967410#0(397"In file included from /tmp/QS/build/Release/QSCore.framework/Headers/QSObject_FileHandling.h:2,                 from /tmp/QS/build/Release/QSCore.framework/Headers/QSCore.h:45,                 from /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch:8:/tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h:11:2: warning: #warning no has feature1(22@23"#warning no has feature329967405#293#104#4(7@111"In file included from /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch329967405#18446744073709551615#0#0(6@89"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch329966757#8#0#8#0#0"0(7@77"In file included from /tmp/QS/build/Release/QSCore.framework/Headers/QSCore.h329967405#18446744073709551615#0#0(6@55"/tmp/QS/build/Release/QSCore.framework/Headers/QSCore.h329793335#45#0#45#0#0"0(7@92"In file included from /tmp/QS/build/Release/QSCore.framework/Headers/QSObject_FileHandling.h329967405#18446744073709551615#0#0(6@70"/tmp/QS/build/Release/QSCore.framework/Headers/QSObject_FileHandling.h329793335#2#0#2#0#0"0(13@91"#warning no has feature in /tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h329967405#18446744073709551615#0#0(6@64"/tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h329793335#11#0#11#0#0"0(6@64"/tmp/QS/build/Release/QSCore.framework/Headers/QSClangAnalyzer.h329793335#11#0#11#0#10"#warning *0(0#0#89"/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch8656837344#1265"    cd /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/MicrosoftOfficePlugin.hmap -F/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development -F/tmp/QS/build/Release -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/include -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources/i386 -I/Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/MicrosoftOfficePlugin.build/Development/MicrosoftOfficePlugin.build/DerivedSources -c /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/MicrosoftOfficePlugin_Prefix.pch -o /var/folders/tN/tNP3-VKqFCS4Mk7g63F9LU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicrosoftOfficePlugin_Prefix-hiiokqbclelurifhcqcohptifzsr/MicrosoftOfficePlugin_Prefix.pch.gch0#
-
-CTouch /Developer/Apps/QuicksilverPlugins/MicrosoftOfficePlugin/build/Development/MicrosoftOfficePlugin.qsplugin
-r0
-
