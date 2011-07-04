@@ -31,6 +31,7 @@
 }
 
 - (BOOL)loadChildrenForObject:(QSObject *)object {
+	
 	// Structure of the com.microsoft.office.plist file — where the recent docs are stored (MS Office 2011)
 	NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
 								  @"14\\File MRU\\XCEL", @"com.microsoft.Excel",
@@ -38,8 +39,8 @@
 											
 	NSString *preferencesValue = nil, *bundleIdentifier = nil;
 	
+	// Find the correct preferences value for this app (bundle ID)
 	NSString *path = [object singleFilePath];
-	
 	bundleIdentifier = [[NSBundle bundleWithPath:path] bundleIdentifier];
 	preferencesValue = [IDPreferenceValuePairs objectForKey:bundleIdentifier];
 	
@@ -48,13 +49,13 @@
 		return NO;
 	}
 	
+	// Get an array of recent docs from the office .plist (MS 2011 case)
 	NSArray *recentDocuments = [(NSArray *)CFPreferencesCopyValue((CFStringRef) preferencesValue, 
 																  (CFStringRef) @"com.microsoft.office", 
 																  kCFPreferencesCurrentUser, 
 																  kCFPreferencesAnyHost) autorelease];
 	
 	NSMutableArray *documentsArray = [[NSMutableArray alloc] initWithCapacity:20];
-	
 	NSData *fileData;
 	NSString *filepath;
 	NSURL *url;
@@ -100,7 +101,7 @@
 		// ARC autoreleasepool — hopefully we'll be using this soon :-) (see http://clang.llvm.org/docs/AutomaticReferenceCounting.html )
 		// @autoreleasepool {
 		NSAutoreleasePool *pool = [NSAutoreleasePool new];
-		for (i = 1 ; i <= 100; i++) {
+		for (i = 1 ; i <= 100; ++i) {
 			// MS Office '08 recent docs are stored in the format 2008\\FileAliases\\MSWD1,2,3...
 			fileData = [(NSArray *)CFPreferencesCopyValue((CFStringRef) [NSString stringWithFormat:@"%@%i",preferencesValue,i], 
 														  (CFStringRef) @"com.microsoft.office", 
@@ -122,23 +123,21 @@
 		}
 		[pool release];
 //		} // end @autoreleasepool
-				
-			
-				
 	} // End MS Office 2008
 
+	// If there's been some kind of problem
 	if (!documentsArray) {
 		return NO;
 	}
+	
 	NSArray *newChildren = [QSObject fileObjectsWithPathArray:documentsArray];
 	for(QSObject * child in newChildren) {
-		[child setObject:@"com.apple.Xcode" forMeta:@"QSPreferredApplication"];
+		[child setObject:bundleIdentifier forMeta:@"QSPreferredApplication"];
 	}
-	[object setChildren:newChildren];
 	
+	[object setChildren:newChildren];
 	[documentsArray release];
 	return YES;
-	
 }
 
 
