@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>0.5.0</string>
 	<key>CFBundleVersion</key>
-	<string>4D</string>
+	<string>64</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011, QSApp</string>
 	<key>QSActions</key>
@@ -33,7 +33,9 @@
 		<key>description</key>
 		<string>Interaction with Microsoft's Office Suite</string>
 		<key>extendedDescription</key>
-		<string>Enabled the finding of recent document for Microsoft Office Applications by right arrowing into the Applications</string>
+		<string>Enables drilling into Microsoft Word, Excel, Powerpoint to locate recently opened documents</string>
+		<key>icon</key>
+		<string>OfficeLego</string>
 	</dict>
 	<key>QSRegistration</key>
 	<dict>

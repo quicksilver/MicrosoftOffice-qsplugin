@@ -3,7 +3,7 @@
 //  MicrosoftOfficePlugin
 //
 //  Created by Patrick Robertson on 17/06/2011.
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Copyright Patrick Robertson 2011. All rights reserved.
 //
 
 #import "MicrosoftOfficePluginSource.h"
@@ -31,10 +31,11 @@
 }
 
 - (BOOL)loadChildrenForObject:(QSObject *)object {
-	NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
+	// Structure of the com.microsoft.office.plist file — where the recent docs are stored
+	NSDictionary *IDPreferenceValuePairs = [[NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
 								  @"14\\File MRU\\XCEL", @"com.microsoft.Excel",
-								  @"14\\File MRU\\PPT3", @"com.microsoft.Powerpoint", nil];
-	
+								   @"14\\File MRU\\PPT3", @"com.microsoft.Powerpoint", nil];
+											
 	NSString *preferencesValue = nil, *bundleIdentifier = nil;
 	
 	NSString *path = [object singleFilePath];
