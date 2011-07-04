@@ -31,7 +31,7 @@
 			<string>Applications</string>
 		</array>
 		<key>description</key>
-		<string>Interaction with Microsoft's Office Suite</string>
+		<string>Interaction with Microsoft&apos;s Office Suite</string>
 		<key>extendedDescription</key>
 		<string>Enables drilling into Microsoft Word, Excel, Powerpoint to locate recently opened documents</string>
 		<key>icon</key>

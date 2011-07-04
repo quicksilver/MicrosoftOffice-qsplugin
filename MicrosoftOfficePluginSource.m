@@ -32,7 +32,7 @@
 
 - (BOOL)loadChildrenForObject:(QSObject *)object {
 	// Structure of the com.microsoft.office.plist file — where the recent docs are stored
-	NSDictionary *IDPreferenceValuePairs = [[NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
+	NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
 								  @"14\\File MRU\\XCEL", @"com.microsoft.Excel",
 								   @"14\\File MRU\\PPT3", @"com.microsoft.Powerpoint", nil];
 											

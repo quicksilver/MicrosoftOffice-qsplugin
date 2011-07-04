@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,7 +30,7 @@
 		BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePluginAction.m; sourceTree = "<group>"; };
 		BBF581820B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftOfficePluginSource.h; sourceTree = "<group>"; };
 		BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePluginSource.m; sourceTree = "<group>"; };
-		CDF404D213C1BA38002F4793 /* OfficeLego.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = OfficeLego.icns; path = Apps/QuicksilverPlugins/MicrosoftOfficePlugin/OfficeLego.icns; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		CDF404D213C1BA38002F4793 /* OfficeLego.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = OfficeLego.icns; path = Apps/QuicksilverPlugins/MicrosoftOfficePlugin/OfficeLego.icns; sourceTree = DEVELOPER_DIR; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePlugin.m; sourceTree = "<group>"; };
 		E1EAB047068128A800774DFF /* MicrosoftOfficePlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MicrosoftOfficePlugin.h; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 		0259C573FE90428111CA0C5A /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "MicrosoftOfficePlugin" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -248,22 +248,21 @@
 		7F6B3EF0085CE8DF000735A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
-				VALID_ARCHS = "i386 ppc x86_64";
+				VALID_ARCHS = "ppc i386 x86_64";
 			};
 			name = Development;
 		};
 		7F6B3EF1085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_MODEL_TUNING = G5;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+				VALID_ARCHS = "ppc i386 x86_64";
 			};
 			name = Release;
 		};
