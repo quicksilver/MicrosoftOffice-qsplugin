@@ -31,7 +31,7 @@
 }
 
 - (BOOL)loadChildrenForObject:(QSObject *)object {
-	// Structure of the com.microsoft.office.plist file — where the recent docs are stored
+	// Structure of the com.microsoft.office.plist file — where the recent docs are stored (MS Office 2011)
 	NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
 								  @"14\\File MRU\\XCEL", @"com.microsoft.Excel",
 								   @"14\\File MRU\\PPT3", @"com.microsoft.Powerpoint", nil];
@@ -48,30 +48,85 @@
 		return NO;
 	}
 	
-	NSMutableArray *documentsArray = [[NSMutableArray alloc] init];
-	NSURL *url;
-	NSError *err;
-	
 	NSArray *recentDocuments = [(NSArray *)CFPreferencesCopyValue((CFStringRef) preferencesValue, 
 																  (CFStringRef) @"com.microsoft.office", 
 																  kCFPreferencesCurrentUser, 
 																  kCFPreferencesAnyHost) autorelease];
+	
+	NSMutableArray *documentsArray = [[NSMutableArray alloc] initWithCapacity:20];
+	
 	NSData *fileData;
 	NSString *filepath;
+	NSURL *url;
+	NSError *err;
 	
-	
-	
-	for(NSDictionary *eachFile in recentDocuments) {
-		fileData = [eachFile objectForKey:@"File Alias"];
+	if (recentDocuments) { // MS Office 2011
 		
-		filepath = [[NDAlias aliasWithData:fileData] quickPath];
-		
-		if (filepath == nil) {
-			// couldn't resolve bookmark, so skip
-			continue;
+		for(NSDictionary *eachFile in recentDocuments) {
+			fileData = [eachFile objectForKey:@"File Alias"];
+			
+			filepath = [[NDAlias aliasWithData:fileData] quickPath];
+			
+			if (filepath == nil) {
+				// couldn't resolve bookmark, so skip
+				continue;
+			}
+			[documentsArray addObject:filepath];
+			
+			if ([documentsArray count] > 20) {
+				break;
+			}
 		}
-		[documentsArray addObject:filepath];
-	}
+	} // End MS Office 2011
+	
+	else { // MS Office 2008
+		
+		// Recent docs are stored in different key/value pairs for MS 2008
+		NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"2008\\File Aliases\\MSWD", @"com.microsoft.Word",
+												@"2008\\File Aliases\\XCEL", @"com.microsoft.Excel",
+												@"2008\\File Aliases\\PPT3", @"com.microsoft.Powerpoint", nil];		
+		
+		preferencesValue = [IDPreferenceValuePairs objectForKey:bundleIdentifier];
+		
+		
+		// incase something went wrong
+		if (!preferencesValue) {
+			return NO;
+		}
+		
+		NSData *fileData;
+		int i;
+		
+		// ARC autoreleasepool — hopefully we'll be using this soon :-) (see http://clang.llvm.org/docs/AutomaticReferenceCounting.html )
+		// @autoreleasepool {
+		NSAutoreleasePool *pool = [NSAutoreleasePool new];
+		for (i = 1 ; i <= 100; i++) {
+			// MS Office '08 recent docs are stored in the format 2008\\FileAliases\\MSWD1,2,3...
+			fileData = [(NSArray *)CFPreferencesCopyValue((CFStringRef) [NSString stringWithFormat:@"%@%i",preferencesValue,i], 
+														  (CFStringRef) @"com.microsoft.office", 
+														  kCFPreferencesCurrentUser, 
+														  kCFPreferencesAnyHost) autorelease];
+
+			// break if there are no more key/value pairs
+			if (!fileData) {
+				break;
+			}
+			
+			filepath = [[NDAlias aliasWithData:fileData] quickPath];
+			
+			if (filepath == nil) {
+				// couldn't resolve bookmark, so skip
+				continue;
+			}
+			[documentsArray addObject:filepath];
+		}
+		[pool release];
+//		} // end @autoreleasepool
+				
+			
+				
+	} // End MS Office 2008
+
 	if (!documentsArray) {
 		return NO;
 	}
