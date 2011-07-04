@@ -10,7 +10,6 @@ autom4te.cache
 *.perspectivev3
 *.mode1v3
 *.mode2v3
-*.pbxuser
 *.tm_build_errors
 *.tmproj
 Developer.xcconfig
