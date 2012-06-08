@@ -7,8 +7,6 @@
 //
 
 #import "MicrosoftOfficePluginSource.h"
-#import <QSCore/QSObject.h>
-
 
 @implementation MicrosoftOfficePluginSource
 - (BOOL)indexIsValidFromDate:(NSDate *)indexDate forEntry:(NSDictionary *)theEntry{
@@ -19,11 +17,6 @@
     return nil;
 }
 
-
-// Return a unique identifier for an object (if you haven't assigned one before)
-//- (NSString *)identifierForObject:(id <QSObject>)object{
-//    return nil;
-//}
 
 - (NSArray *) objectsForEntry:(NSDictionary *)theEntry{
 	return nil;
@@ -49,6 +42,11 @@
 		return NO;
 	}
 	
+    // synchronise the file to save the latest changes
+    CFPreferencesSynchronize((CFStringRef) @"com.microsoft.office",
+							 kCFPreferencesCurrentUser,
+							 kCFPreferencesAnyHost);
+    
 	// Get an array of recent docs from the office .plist (MS 2011 case)
 	NSArray *recentDocuments = [(NSArray *)CFPreferencesCopyValue((CFStringRef) preferencesValue, 
 																  (CFStringRef) @"com.microsoft.office", 
@@ -58,8 +56,6 @@
 	NSMutableArray *documentsArray = [[NSMutableArray alloc] initWithCapacity:20];
 	NSData *fileData;
 	NSString *filepath;
-	NSURL *url;
-	NSError *err;
 	
 	if (recentDocuments) { // MS Office 2011
 		
@@ -96,14 +92,12 @@
 		}
 		
 		NSData *fileData;
-		int i;
+		NSUInteger i;
 		
-		// ARC autoreleasepool — hopefully we'll be using this soon :-) (see http://clang.llvm.org/docs/AutomaticReferenceCounting.html )
-		// @autoreleasepool {
-		NSAutoreleasePool *pool = [NSAutoreleasePool new];
+		@autoreleasepool {
 		for (i = 1 ; i <= 100; ++i) {
 			// MS Office '08 recent docs are stored in the format 2008\\FileAliases\\MSWD1,2,3...
-			fileData = [(NSArray *)CFPreferencesCopyValue((CFStringRef) [NSString stringWithFormat:@"%@%i",preferencesValue,i], 
+			fileData = [(NSData *)CFPreferencesCopyValue((CFStringRef) [NSString stringWithFormat:@"%@%lu",preferencesValue,(unsigned long)i], 
 														  (CFStringRef) @"com.microsoft.office", 
 														  kCFPreferencesCurrentUser, 
 														  kCFPreferencesAnyHost) autorelease];
@@ -121,8 +115,7 @@
 			}
 			[documentsArray addObject:filepath];
 		}
-		[pool release];
-//		} // end @autoreleasepool
+        } // end @autoreleasepool
 	} // End MS Office 2008
 
 	// If there's been some kind of problem
@@ -140,18 +133,4 @@
 	return YES;
 }
 
-
-// Object Handler Methods
-
-/*
-- (void)setQuickIconForObject:(QSObject *)object{
-    [object setIcon:nil]; // An icon that is either already in memory or easy to load
-}
-- (BOOL)loadIconForObject:(QSObject *)object{
-	return NO;
-    id data=[object objectForType:kMicrosoftOfficePluginType];
-	[object setIcon:nil];
-    return YES;
-}
-*/
 @end
