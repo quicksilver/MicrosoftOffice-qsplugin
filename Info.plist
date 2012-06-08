@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>0.5.1</string>
 	<key>CFBundleVersion</key>
-	<string>7A</string>
+	<string>7C</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011, QSApp</string>
 	<key>QSActions</key>
@@ -31,11 +31,21 @@
 			<string>Applications</string>
 		</array>
 		<key>description</key>
-		<string>Interaction with Microsoft's Office Suite</string>
+		<string>Recent documents from the Microsoft Office Suite</string>
 		<key>extendedDescription</key>
-		<string>Enables drilling into Microsoft Word, Excel, Powerpoint to locate recently opened documents</string>
+		<string>&lt;h3&gt;Microsoft Office Plugin&lt;/h3&gt;
+
+&lt;p&gt;Enables moving down (using → or /) into Microsoft Word, Excel, Powerpoint to locate recently opened documents.&lt;br /&gt;
+Works with Microsoft Office 2008 and Microsoft Office 2011&lt;/p&gt;</string>
 		<key>icon</key>
 		<string>OfficeLego</string>
+		<key>relatedBundles</key>
+		<array>
+			<string>com.microsoft.Word</string>
+			<string>com.microsoft.Powerpoint</string>
+			<string>com.microsoft.Excel</string>
+			<string>com.microsoft.office</string>
+		</array>
 	</dict>
 	<key>QSRegistration</key>
 	<dict>
