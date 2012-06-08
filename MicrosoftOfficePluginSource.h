@@ -6,8 +6,6 @@
 //  Copyright Patrick Robertson 2011. All rights reserved.
 //
 
-#import <QSCore/QSObjectSource.h>
-
 #define MicrosoftOfficePluginType @"MicrosoftOfficePluginType"
 
 @interface MicrosoftOfficePluginSource : QSObjectSource
