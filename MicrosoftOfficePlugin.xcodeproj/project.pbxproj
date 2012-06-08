@@ -12,24 +12,35 @@
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		BBF5817C0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */; };
 		BBF581840B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */; };
+		CDC1BE0F1582704E007CA6ED /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE071582704E007CA6ED /* Common.xcconfig */; };
+		CDC1BE101582704E007CA6ED /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE081582704E007CA6ED /* Debug.xcconfig */; };
+		CDC1BE111582704E007CA6ED /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE091582704E007CA6ED /* Developer.xcconfig */; };
+		CDC1BE121582704E007CA6ED /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */; };
+		CDC1BE131582704E007CA6ED /* QSPlugIn_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */; };
+		CDC1BE141582704E007CA6ED /* QSPlugIn_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */; };
+		CDC1BE151582704E007CA6ED /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0E1582704E007CA6ED /* Release.xcconfig */; };
 		D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */ = {isa = PBXBuildFile; fileRef = D4A732CC13C4AF600088B2DD /* OfficeLego.icns */; };
 		E1EAB046068128A200774DFF /* MicrosoftOfficePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32DBCF980370C29C00C91783 /* MicrosoftOfficePlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftOfficePlugin_Prefix.pch; sourceTree = "<group>"; };
-		7F35FF3C07F9ACD90056051D /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFrameworks; };
-		7F35FF3D07F9ACD90056051D /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
-		7F35FF3E07F9ACD90056051D /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFrameworks; };
-		7F35FF3F07F9ACD90056051D /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
-		7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
-		7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
+		7F35FF3C07F9ACD90056051D /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F35FF3E07F9ACD90056051D /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1AC9740486D14A00FE50C9 /* MicrosoftOfficePlugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrosoftOfficePlugin.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF5817A0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftOfficePluginAction.h; sourceTree = "<group>"; };
 		BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePluginAction.m; sourceTree = "<group>"; };
 		BBF581820B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftOfficePluginSource.h; sourceTree = "<group>"; };
 		BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePluginSource.m; sourceTree = "<group>"; };
+		CDC1BE071582704E007CA6ED /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		CDC1BE081582704E007CA6ED /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CDC1BE091582704E007CA6ED /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
+		CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
+		CDC1BE0D1582704E007CA6ED /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		CDC1BE0E1582704E007CA6ED /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		D4A732CC13C4AF600088B2DD /* OfficeLego.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = OfficeLego.icns; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePlugin.m; sourceTree = "<group>"; };
@@ -53,6 +64,7 @@
 		0259C574FE90428111CA0C5A /* MicrosoftOfficePlugin */ = {
 			isa = PBXGroup;
 			children = (
+				CDC1BE061582704E007CA6ED /* Configuration */,
 				32DBCF9E0370C38000C91783 /* Classes */,
 				32DBCF9F0370C38200C91783 /* Other Sources */,
 				0259C582FE90428111CA0C5A /* Resources */,
@@ -85,9 +97,6 @@
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
 				7F35FF3C07F9ACD90056051D /* QSCore.framework */,
 				7F35FF3E07F9ACD90056051D /* QSFoundation.framework */,
-				7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */,
-				7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */,
-				7FC20C8107FB741700FDD3CA /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,14 +122,21 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		7FC20C8107FB741700FDD3CA /* Other Frameworks */ = {
+		CDC1BE061582704E007CA6ED /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				7F35FF3D07F9ACD90056051D /* QSEffects.framework */,
-				7F35FF3F07F9ACD90056051D /* QSInterface.framework */,
+				CDC1BE071582704E007CA6ED /* Common.xcconfig */,
+				CDC1BE081582704E007CA6ED /* Debug.xcconfig */,
+				CDC1BE091582704E007CA6ED /* Developer.xcconfig */,
+				CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */,
+				CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */,
+				CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */,
+				CDC1BE0D1582704E007CA6ED /* Quicksilver.pch */,
+				CDC1BE0E1582704E007CA6ED /* Release.xcconfig */,
 			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -177,6 +193,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */,
+				CDC1BE0F1582704E007CA6ED /* Common.xcconfig in Resources */,
+				CDC1BE101582704E007CA6ED /* Debug.xcconfig in Resources */,
+				CDC1BE111582704E007CA6ED /* Developer.xcconfig in Resources */,
+				CDC1BE121582704E007CA6ED /* QSPlugIn.xcconfig in Resources */,
+				CDC1BE131582704E007CA6ED /* QSPlugIn_Debug.xcconfig in Resources */,
+				CDC1BE141582704E007CA6ED /* QSPlugIn_Release.xcconfig in Resources */,
+				CDC1BE151582704E007CA6ED /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,72 +237,38 @@
 /* Begin XCBuildConfiguration section */
 		7F6B3EEC085CE8DF000735A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					/System/Library/PrivateFrameworks,
-					"~/Library/Frameworks",
-					"$(BUILT_PRODUCTS_DIR)",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MicrosoftOfficePlugin_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = MicrosoftOfficePlugin;
-				QS_BUILD_ROOT = /tmp/QS;
-				SDKROOT = "";
-				SYMROOT = "$(QS_BUILD_ROOT)/build";
 				WRAPPER_EXTENSION = qsplugin;
-				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
 		7F6B3EED085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					/System/Library/PrivateFrameworks,
-					"~/Library/Frameworks",
-					"$(BUILT_PRODUCTS_DIR)",
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MicrosoftOfficePlugin_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = MicrosoftOfficePlugin;
-				QS_BUILD_ROOT = /tmp/QS;
-				SDKROOT = "";
-				SYMROOT = "$(QS_BUILD_ROOT)/build";
 				WRAPPER_EXTENSION = qsplugin;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
 		7F6B3EF0085CE8DF000735A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC1BE081582704E007CA6ED /* Debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = "";
-				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
 		7F6B3EF1085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC1BE0E1582704E007CA6ED /* Release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_MODEL_TUNING = G5;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = "";
-				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
