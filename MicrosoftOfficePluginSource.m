@@ -41,6 +41,8 @@
 	if (!preferencesValue) {
 		return NO;
 	}
+    
+    NSFileManager *fm = [NSFileManager defaultManager];
 	
     // synchronise the file to save the latest changes
     CFPreferencesSynchronize((CFStringRef) @"com.microsoft.office",
@@ -68,7 +70,9 @@
 				// couldn't resolve bookmark, so skip
 				continue;
 			}
-			[documentsArray addObject:filepath];
+            if ([fm fileExistsAtPath:filepath]) {
+                [documentsArray addObject:filepath];
+            }
 			
 			if ([documentsArray count] > 20) {
 				break;
@@ -113,7 +117,9 @@
                     // couldn't resolve bookmark, so skip
                     continue;
                 }
-                [documentsArray addObject:filepath];
+                if ([fm fileExistsAtPath:filepath]) {
+                    [documentsArray addObject:filepath];
+                }
             }
         } // end @autoreleasepool
 	} // End MS Office 2008
