@@ -16,8 +16,6 @@
 		CDC1BE101582704E007CA6ED /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE081582704E007CA6ED /* Debug.xcconfig */; };
 		CDC1BE111582704E007CA6ED /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE091582704E007CA6ED /* Developer.xcconfig */; };
 		CDC1BE121582704E007CA6ED /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */; };
-		CDC1BE131582704E007CA6ED /* QSPlugIn_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */; };
-		CDC1BE141582704E007CA6ED /* QSPlugIn_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */; };
 		CDC1BE151582704E007CA6ED /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0E1582704E007CA6ED /* Release.xcconfig */; };
 		D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */ = {isa = PBXBuildFile; fileRef = D4A732CC13C4AF600088B2DD /* OfficeLego.icns */; };
 		E1EAB046068128A200774DFF /* MicrosoftOfficePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */; };
@@ -36,8 +34,6 @@
 		CDC1BE081582704E007CA6ED /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		CDC1BE091582704E007CA6ED /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
 		CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
-		CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
 		CDC1BE0D1582704E007CA6ED /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		CDC1BE0E1582704E007CA6ED /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		D4A732CC13C4AF600088B2DD /* OfficeLego.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = OfficeLego.icns; sourceTree = "<group>"; };
@@ -65,7 +61,6 @@
 			children = (
 				CDC1BE061582704E007CA6ED /* Configuration */,
 				32DBCF9E0370C38000C91783 /* Classes */,
-				32DBCF9F0370C38200C91783 /* Other Sources */,
 				0259C582FE90428111CA0C5A /* Resources */,
 				1ED78706FE9D4A0611CA0C5A /* Products */,
 				2E58F364FFB232C311CA0CBA /* Frameworks */,
@@ -113,13 +108,6 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		32DBCF9F0370C38200C91783 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
 		CDC1BE061582704E007CA6ED /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +115,6 @@
 				CDC1BE081582704E007CA6ED /* Debug.xcconfig */,
 				CDC1BE091582704E007CA6ED /* Developer.xcconfig */,
 				CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */,
-				CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */,
-				CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */,
 				CDC1BE0D1582704E007CA6ED /* Quicksilver.pch */,
 				CDC1BE0E1582704E007CA6ED /* Release.xcconfig */,
 			);
@@ -143,10 +129,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "MicrosoftOfficePlugin" */;
 			buildPhases = (
+				E1022B2806B3475D00299BEC /* Update Version and Documentation */,
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
 				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
-				E1022B2806B3475D00299BEC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -195,8 +181,6 @@
 				CDC1BE101582704E007CA6ED /* Debug.xcconfig in Resources */,
 				CDC1BE111582704E007CA6ED /* Developer.xcconfig in Resources */,
 				CDC1BE121582704E007CA6ED /* QSPlugIn.xcconfig in Resources */,
-				CDC1BE131582704E007CA6ED /* QSPlugIn_Debug.xcconfig in Resources */,
-				CDC1BE141582704E007CA6ED /* QSPlugIn_Release.xcconfig in Resources */,
 				CDC1BE151582704E007CA6ED /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,18 +188,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E1022B2806B3475D00299BEC /* ShellScript */ = {
+		E1022B2806B3475D00299BEC /* Update Version and Documentation */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Update Version and Documentation";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "$SRCROOT/bltrversion $INFOPLIST_FILE";
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -235,23 +220,19 @@
 /* Begin XCBuildConfiguration section */
 		7F6B3EEC085CE8DF000735A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDC1BE0B1582704E007CA6ED /* QSPlugIn_Debug.xcconfig */;
+			baseConfigurationReference = CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = MicrosoftOfficePlugin;
-				WRAPPER_EXTENSION = qsplugin;
 			};
 			name = Debug;
 		};
 		7F6B3EED085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDC1BE0C1582704E007CA6ED /* QSPlugIn_Release.xcconfig */;
+			baseConfigurationReference = CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = MicrosoftOfficePlugin;
-				WRAPPER_EXTENSION = qsplugin;
 			};
 			name = Release;
 		};
