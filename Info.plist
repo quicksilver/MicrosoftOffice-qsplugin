@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Microsoft Office</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -12,14 +14,12 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>Microsoft Office Plugin</string>
-	<key>CFBundleDisplayName</key>
-	<string>Microsoft Office</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>8B</string>
+	<string>97</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011, QSApp</string>
 	<key>QSActions</key>
@@ -65,6 +65,11 @@ Works with Microsoft Office 2008 and Microsoft Office 2011&lt;/p&gt;</string>
 			<key>MicrosoftOfficePluginSource</key>
 			<string>MicrosoftOfficePluginSource</string>
 		</dict>
+	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>4001</string>
 	</dict>
 </dict>
 </plist>
