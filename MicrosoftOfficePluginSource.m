@@ -8,6 +8,13 @@
 
 #import "MicrosoftOfficePluginSource.h"
 
+#define kWordBundleId @"com.microsoft.Word"
+#define kExcelBundleId @"com.microsoft.Excel"
+#define kPowerpointBundleId @"com.microsoft.Powerpoint"
+#define kOfficeBundleId @"com.microsoft.office"
+
+#define kOffice2016RecentDocumentsPlist @"~/Library/Containers/%@/Data/Library/Preferences/%@.securebookmarks.plist"
+
 @implementation MicrosoftOfficePluginSource
 - (BOOL)indexIsValidFromDate:(NSDate *)indexDate forEntry:(NSDictionary *)theEntry{
     return YES;
@@ -26,9 +33,9 @@
 - (BOOL)loadChildrenForObject:(QSObject *)object {
 	
 	// Structure of the com.microsoft.office.plist file — where the recent docs are stored (MS Office 2011)
-	NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"14\\File MRU\\MSWD", @"com.microsoft.Word",
-                                            @"14\\File MRU\\XCEL", @"com.microsoft.Excel",
-                                            @"14\\File MRU\\PPT3", @"com.microsoft.Powerpoint", nil];
+    NSDictionary *IDPreferenceValuePairs = @{kWordBundleId: @"14\\File MRU\\MSWD",
+                                             kExcelBundleId: @"\\File MRU\\XCEL",
+                                             kPowerpointBundleId: @"\\File MRU\\PPT3"};
     
 	NSString *preferencesValue = nil, *bundleIdentifier = nil;
 	
@@ -45,7 +52,7 @@
 
     
     // ms2016
-    NSDictionary *ms2016Dict = [NSDictionary dictionaryWithContentsOfFile:[[NSString stringWithFormat:@"~/Library/Containers/%@/Data/Library/Preferences/%@.securebookmarks.plist", bundleIdentifier, bundleIdentifier] stringByExpandingTildeInPath]];
+    NSDictionary *ms2016Dict = [NSDictionary dictionaryWithContentsOfFile:[[NSString stringWithFormat:kOffice2016RecentDocumentsPlist, bundleIdentifier, bundleIdentifier] stringByExpandingTildeInPath]];
     
     NSMutableArray *documentsArray = [[NSMutableArray alloc] initWithCapacity:20];
     NSFileManager *fm = [NSFileManager defaultManager];
@@ -61,13 +68,13 @@
     } else {
                 
         // synchronise the file to save the latest changes
-        CFPreferencesSynchronize((CFStringRef) @"com.microsoft.office",
+        CFPreferencesSynchronize((CFStringRef) kOfficeBundleId,
                                  kCFPreferencesCurrentUser,
                                  kCFPreferencesAnyHost);
         
         // Get an array of recent docs from the office .plist (MS 2011 case)
         recentDocuments = [(NSArray *)CFPreferencesCopyValue((CFStringRef) preferencesValue,
-                                                             (CFStringRef) @"com.microsoft.office",
+                                                             (CFStringRef) kOfficeBundleId,
                                                              kCFPreferencesCurrentUser,
                                                              kCFPreferencesAnyHost) autorelease];
         
@@ -98,9 +105,9 @@
         } else { // MS Office 2008
             
             // Recent docs are stored in different key/value pairs for MS 2008
-            NSDictionary *IDPreferenceValuePairs = [NSDictionary dictionaryWithObjectsAndKeys:@"2008\\File Aliases\\MSWD", @"com.microsoft.Word",
-                                                    @"2008\\File Aliases\\XCEL", @"com.microsoft.Excel",
-                                                    @"2008\\File Aliases\\PPT3", @"com.microsoft.Powerpoint", nil];
+            NSDictionary *IDPreferenceValuePairs = @{kWordBundleId: @"2008\\File Aliases\\MSWD",
+                                                     kExcelBundleId: @"2008\\File Aliases\\XCEL",
+                                                     kPowerpointBundleId: @"\\File Aliases\\PPT3"};
             
             preferencesValue = [IDPreferenceValuePairs objectForKey:bundleIdentifier];
             
@@ -117,7 +124,7 @@
                 for (i = 1 ; i <= 100; ++i) {
                     // MS Office '08 recent docs are stored in the format 2008\\FileAliases\\MSWD1,2,3...
                     fileData = [(NSData *)CFPreferencesCopyValue((CFStringRef) [NSString stringWithFormat:@"%@%lu",preferencesValue,(unsigned long)i],
-                                                                 (CFStringRef) @"com.microsoft.office",
+                                                                 (CFStringRef) kOfficeBundleId,
                                                                  kCFPreferencesCurrentUser,
                                                                  kCFPreferencesAnyHost) autorelease];
                     
