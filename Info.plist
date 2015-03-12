@@ -19,11 +19,12 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>97</string>
+	<string>98</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011, QSApp</string>
 	<key>QSActions</key>
-	<dict/>
+	<dict>
+	</dict>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
@@ -36,9 +37,8 @@
 		<string>Recent documents from the Microsoft Office Suite</string>
 		<key>extendedDescription</key>
 		<string>&lt;h3&gt;Microsoft Office Plugin&lt;/h3&gt;
-
-&lt;p&gt;Enables moving down (using → or /) into Microsoft Word, Excel, Powerpoint to locate recently opened documents.&lt;br /&gt;
-Works with Microsoft Office 2008 and Microsoft Office 2011&lt;/p&gt;</string>
+&lt;p&gt;Enables moving down (using → or /) into Microsoft Word, Excel, Powerpoint to locate recently opened documents.&lt;/p&gt;
+&lt;p&gt;Works with Microsoft Office 2016, 2011 and 2008&lt;/p&gt;</string>
 		<key>icon</key>
 		<string>OfficeLego</string>
 		<key>relatedBundles</key>
