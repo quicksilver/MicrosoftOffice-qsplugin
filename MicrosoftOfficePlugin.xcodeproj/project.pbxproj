@@ -12,11 +12,6 @@
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		BBF5817C0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */; };
 		BBF581840B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */; };
-		CDC1BE0F1582704E007CA6ED /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE071582704E007CA6ED /* Common.xcconfig */; };
-		CDC1BE101582704E007CA6ED /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE081582704E007CA6ED /* Debug.xcconfig */; };
-		CDC1BE111582704E007CA6ED /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE091582704E007CA6ED /* Developer.xcconfig */; };
-		CDC1BE121582704E007CA6ED /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */; };
-		CDC1BE151582704E007CA6ED /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC1BE0E1582704E007CA6ED /* Release.xcconfig */; };
 		D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */ = {isa = PBXBuildFile; fileRef = D4A732CC13C4AF600088B2DD /* OfficeLego.icns */; };
 		E1EAB046068128A200774DFF /* MicrosoftOfficePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */; };
 /* End PBXBuildFile section */
@@ -150,7 +145,7 @@
 		0259C573FE90428111CA0C5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "MicrosoftOfficePlugin" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -177,11 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */,
-				CDC1BE0F1582704E007CA6ED /* Common.xcconfig in Resources */,
-				CDC1BE101582704E007CA6ED /* Debug.xcconfig in Resources */,
-				CDC1BE111582704E007CA6ED /* Developer.xcconfig in Resources */,
-				CDC1BE121582704E007CA6ED /* QSPlugIn.xcconfig in Resources */,
-				CDC1BE151582704E007CA6ED /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +214,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsapp.Quicksilver.MicrosoftOfficePlugin;
 			};
 			name = Debug;
 		};
@@ -233,6 +224,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsapp.Quicksilver.MicrosoftOfficePlugin;
 			};
 			name = Release;
 		};
@@ -240,6 +232,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDC1BE081582704E007CA6ED /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -247,7 +244,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDC1BE0E1582704E007CA6ED /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
 			};
 			name = Release;
 		};
