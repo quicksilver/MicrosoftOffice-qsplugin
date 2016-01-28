@@ -19,11 +19,12 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.1</string>
 	<key>CFBundleVersion</key>
-	<string>A9</string>
+	<string>AB</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011, QSApp</string>
 	<key>QSActions</key>
-	<dict/>
+	<dict>
+	</dict>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
