@@ -59,7 +59,10 @@
 
     NSArray *recentDocuments = nil;
     if (ms2016Dict) { // MS Office 2016
-        for (NSDictionary *fileDict in [ms2016Dict allValues]) {
+		NSArray *vals = [[ms2016Dict allValues] sortedArrayUsingComparator:^NSComparisonResult(NSDictionary *d1, NSDictionary *d2) {
+			return -[[d1 objectForKey:@"kLastUsedDateKey"] compare:[d2 objectForKey:@"kLastUsedDateKey"]];
+		}];
+        for (NSDictionary *fileDict in vals) {
             NSData *d = [fileDict objectForKey:@"kBookmarkDataKey"];
             NSDictionary *dd = [NSURL resourceValuesForKeys:@[NSURLPathKey] fromBookmarkData:d];
             if (![dd count]) {
@@ -70,12 +73,6 @@
                 [documentsArray addObject:posixPath];
             }
         }
-        // sort the files based on last accessed date - word doesn't seem to do this.
-        [documentsArray sortUsingComparator:^NSComparisonResult(NSString *path1, NSString *path2) {
-            NSDate *d1 = [[fm attributesOfItemAtPath:path1 error:nil] objectForKey:NSFileModificationDate];
-            NSDate *d2 = [[fm attributesOfItemAtPath:path2 error:nil] objectForKey:NSFileModificationDate];
-            return d1 < d2;
-        }];
     } else {
                 
         // synchronise the file to save the latest changes
