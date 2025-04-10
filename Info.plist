@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.0</string>
+	<string>1.2.1</string>
 	<key>CFBundleVersion</key>
-	<string>AD</string>
+	<string>AE</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011, QSApp</string>
+	<string>Copyright © 2025, QSApp</string>
 	<key>QSActions</key>
 	<dict/>
 	<key>QSPlugIn</key>
