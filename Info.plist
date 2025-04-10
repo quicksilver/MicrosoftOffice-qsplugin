@@ -39,7 +39,7 @@
 &lt;p&gt;Enables moving down (using → or /) into Microsoft Word, Excel, Powerpoint to locate recently opened documents.&lt;/p&gt;
 &lt;p&gt;Works with Microsoft Office 2016, 2011 and 2008&lt;/p&gt;</string>
 		<key>icon</key>
-		<string>OfficeLego</string>
+		<string>MSOffice</string>
 		<key>relatedBundles</key>
 		<array>
 			<string>com.microsoft.Word</string>

@@ -12,7 +12,7 @@
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		BBF5817C0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5817B0B1D9D84003CFF55 /* MicrosoftOfficePluginAction.m */; };
 		BBF581840B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF581830B1D9DC3003CFF55 /* MicrosoftOfficePluginSource.m */; };
-		D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */ = {isa = PBXBuildFile; fileRef = D4A732CC13C4AF600088B2DD /* OfficeLego.icns */; };
+		CDDEC8FB2DA7B980001E9B9D /* MSOffice.icns in Resources */ = {isa = PBXBuildFile; fileRef = CDDEC8FA2DA7B980001E9B9D /* MSOffice.icns */; };
 		E1EAB046068128A200774DFF /* MicrosoftOfficePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		CDC1BE0A1582704E007CA6ED /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
 		CDC1BE0D1582704E007CA6ED /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		CDC1BE0E1582704E007CA6ED /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		D4A732CC13C4AF600088B2DD /* OfficeLego.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = OfficeLego.icns; sourceTree = "<group>"; };
+		CDDEC8FA2DA7B980001E9B9D /* MSOffice.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MSOffice.icns; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E1EAB045068128A200774DFF /* MicrosoftOfficePlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MicrosoftOfficePlugin.m; sourceTree = "<group>"; };
 		E1EAB047068128A800774DFF /* MicrosoftOfficePlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MicrosoftOfficePlugin.h; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		0259C582FE90428111CA0C5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D4A732CC13C4AF600088B2DD /* OfficeLego.icns */,
+				CDDEC8FA2DA7B980001E9B9D /* MSOffice.icns */,
 				8D1AC9730486D14A00FE50C9 /* Info.plist */,
 			);
 			name = Resources;
@@ -175,7 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A732CD13C4AF600088B2DD /* OfficeLego.icns in Resources */,
+				CDDEC8FB2DA7B980001E9B9D /* MSOffice.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
